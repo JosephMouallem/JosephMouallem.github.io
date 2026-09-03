@@ -46,5 +46,6 @@ image:
   focal_point: ''
   preview_only: false
 
-projects: []
+projects:
+  - grid-nesting
 ---

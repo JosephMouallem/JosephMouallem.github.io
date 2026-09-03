@@ -45,5 +45,6 @@ image:
   focal_point: ''
   preview_only: false
 
-projects: []
+projects:
+  - induction-heating-turbulence
 ---

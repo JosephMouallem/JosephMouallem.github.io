@@ -47,5 +47,6 @@ image:
   focal_point: ''
   preview_only: false
 
-projects: []
+projects:
+  - vortex-ring-delivery
 ---

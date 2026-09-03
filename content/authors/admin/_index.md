@@ -1,7 +1,7 @@
 ---
 title: Joseph Mouallem
 role: Computational Scientist / Research Software Engineer
-avatar_filename: img_2489.jpg
+avatar_filename: avatar.jpg
 superuser: true
 highlight_name: true
 

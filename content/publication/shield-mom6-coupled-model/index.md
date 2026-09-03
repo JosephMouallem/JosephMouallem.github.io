@@ -54,5 +54,6 @@ image:
   focal_point: ''
   preview_only: false
 
-projects: []
+projects:
+  - shield-mom6
 ---
