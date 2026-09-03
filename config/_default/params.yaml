@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Joseph Mouallem. This work is licensed under {license}'
+    notice: '© {year} Joseph Mouallem'
     license:
       enable: true
       allow_derivatives: false
