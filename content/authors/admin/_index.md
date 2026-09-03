@@ -1,15 +1,42 @@
 ---
+title: Joseph Mouallem
+role: Computational Scientist / Research Software Engineer
 avatar_filename: img_2489.jpg
-bio: "I'm a Computational Fluid Dynamics (CFD) Scientist.  I develop numerical
-  codes, investigate the mathematical modelling of the physics of fluid flows
-  and run simulations using High Performance Computing (HPC). "
+superuser: true
+highlight_name: true
+
+first_name: Joseph
+last_name: Mouallem
+
+organizations:
+  - name: Princeton University
+    url: https://www.princeton.edu/
+  - name: GFDL / NOAA
+    url: https://www.gfdl.noaa.gov/
+
+bio: >-
+  Computational scientist working on GFDL's FV3 dynamical core: grid nesting,
+  the Duo-Grid, and coupled atmosphere-ocean modeling.
+
 interests:
-  - CFD
-  - Numerical Modeling
-  - Dynamical Core
-  - Turbulence
-  - Multiphase flows
-  - High Performance Computing
+  - Dynamical Core development and CFD algorithm implementation
+  - Multiple same level and telescoping grid nesting
+  - Duo-Grid and grid imprinting
+  - Atmosphere-Ocean Model Coupling
+  - FV3 & SHiELD reproducibility and regression testing
+
+education:
+  courses:
+    - course: Ph.D. in Thermal and Fluids
+      institution: University of São Paulo, Brazil
+      year: 2018
+    - course: M.Sc. in Fluid Mechanics
+      institution: INSA Lyon, France
+      year: 2014
+    - course: B.Sc. in Mechanical Engineering
+      institution: ULFG2, Lebanon
+      year: 2014
+
 social:
   - icon: envelope
     icon_pack: fas
@@ -26,34 +53,21 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-organizations:
-  - name: Princeton University
-    url: https://www.princeton.edu/
-education:
-  courses:
-    - course: Postdoctoral Fellow
-      institution: University of Waterloo, Canada
-      year: 2020
-    - course: PhD in Mechanical Engineering
-      institution: University of São Paulo, Brazil
-      year: 2018
-    - course: M.Sc in Fluid Mechanics
-      institution: INSA Lyon, France
-      year: 2014
-    - course: BSc in Mechanical Engineering
-      institution: Lebanese University, Roumieh, Lebanon
-      year: 2014
-superuser: true
-status:
-  icon: ☕️
-last_name: Wu
-role: CFD Scientist
-highlight_name: true
-title: Joseph Mouallem
-first_name: Alice
+
 email: mouallem@princeton.edu
 ---
-I'm a Computational Fluid Dynamics (CFD) Scientist. I develop numerical codes, investigate the mathematical modelling of the physics of fluid flows and run simulations using High Performance Computing (HPC). 
 
+I am a Computational Scientist at NOAA's Geophysical Fluid Dynamics Laboratory
+(GFDL) and a Research Software Engineer at Princeton University, where I work
+with the FV3 team. My work centers on the development of GFDL's Finite-Volume
+Cubed-Sphere (FV3) dynamical core: numerical algorithms, multiple same-level and
+telescoping grid nesting, the novel Duo-Grid used to remove grid imprinting, and
+the coupling of the SHiELD atmospheric model to the MOM6 ocean model. I also
+maintain the reproducibility and regression testing infrastructure for FV3 and
+SHiELD.
+
+Before joining GFDL, I was a postdoctoral fellow and sessional lecturer at the
+University of Waterloo, Canada, where I studied multiphase and turbulent flows
+using Direct Numerical Simulation and High Performance Computing.
 
 {style="text-align: justify;"}
