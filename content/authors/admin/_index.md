@@ -19,15 +19,17 @@ bio: >-
   the Duo-Grid, and coupled atmosphere-ocean modeling.
 
 interests:
-  - Dynamical Core development and CFD algorithm implementation
-  - Multiple same level and telescoping grid nesting
-  - Duo-Grid and grid imprinting
-  - Atmosphere-Ocean Model Coupling
-  - FV3 & SHiELD reproducibility and regression testing
+  - High Performance Computing
+  - CFD algorithm implementation
+  - Scientific Software Architecture
+  - Next-Generation Earth System Models
+  # - Duo-Grid and grid imprinting
+  # - Atmosphere-Ocean Model Coupling
+  # - FV3 & SHiELD reproducibility and regression testing
 
 education:
   courses:
-    - course: Ph.D. in Thermal and Fluids
+    - course: Ph.D. in Mechanical Engineering
       institution: University of São Paulo, Brazil
       year: 2018
     - course: M.Sc. in Fluid Mechanics
@@ -50,24 +52,22 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/joseph-mouallem-614ab18b
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0003-2468-3056
+  - icon: researchgate
+    icon_pack: fab
+    link: https://www.researchgate.net/profile/Joseph-Mouallem?ev=hdr_xprf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 email: mouallem@princeton.edu
 ---
 
-I am a Computational Scientist at NOAA's Geophysical Fluid Dynamics Laboratory
-(GFDL) and a Research Software Engineer at Princeton University, where I work
-with the FV3 team. My work centers on the development of GFDL's Finite-Volume
-Cubed-Sphere (FV3) dynamical core: numerical algorithms, multiple same-level and
-telescoping grid nesting, the novel Duo-Grid used to remove grid imprinting, and
-the coupling of the SHiELD atmospheric model to the MOM6 ocean model. I also
-maintain the reproducibility and regression testing infrastructure for FV3 and
-SHiELD.
+Joseph is a Research Engineer and Computational Scientist at the Cooperative Institute for Modeling the Earth System at Princeton University, and in the Weather and Climate Division at NOAA Geophysical Fluid Dynamics Laboratory. He began his research in CFD during his MSc at INSA Lyon in 2013, working with the turbomachinery team. He later earned his Ph.D. in Mechanical Engineering from the University of São Paulo, where his work focused on multiscale multiphase flows. He then joined the University of Waterloo as a postdoctoral fellow conducting research on heated particle laden turbulence.
 
-Before joining GFDL, I was a postdoctoral fellow and sessional lecturer at the
-University of Waterloo, Canada, where I studied multiphase and turbulent flows
-using Direct Numerical Simulation and High Performance Computing.
+Since 2020, Joseph has been working at Princeton and GFDL, where he develops advanced numerical methods and scalable algorithms for high-resolution geophysical simulations. His work centers on GFDL’s FV3 dynamical core and the next-generation atmosphere model SHiELD, with an emphasis on multiscale modeling, model coupling, and performance portability on modern HPC architectures. His research aims to enable next-generation Earth system simulations with improved fidelity and computational efficiency for extreme weather and climate prediction. 
+
 
 {style="text-align: justify;"}

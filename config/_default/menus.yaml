@@ -7,12 +7,12 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Focus Areas
-    url: '#focus'
-    weight: 20
-  - name: Positions
-    url: '#experience'
-    weight: 30
+  # - name: Focus Areas
+  #   url: '#focus'
+  #   weight: 20
+  # - name: Positions
+  #   url: '#experience'
+  #   weight: 30
   - name: Research
     url: '#research'
     weight: 40
@@ -22,6 +22,3 @@ main:
   - name: Contact
     url: '#contact'
     weight: 60
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 70

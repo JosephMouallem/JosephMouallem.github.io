@@ -12,85 +12,85 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  - block: features
-    id: focus
-    content:
-      title: Focus Areas
-      items:
-        - name: Dynamical Core Development
-          description: Numerical algorithms and CFD schemes in GFDL's FV3.
-          icon: code
-          icon_pack: fas
-        - name: Grid Nesting
-          description: Multiple same-level and telescoping nests.
-          icon: layer-group
-          icon_pack: fas
-        - name: Duo-Grid
-          description: Removing cubed-sphere grid imprinting.
-          icon: border-all
-          icon_pack: fas
-        - name: Atmosphere-Ocean Coupling
-          description: SHiELD-MOM6-SIS2 coupled modeling.
-          icon: water
-          icon_pack: fas
-        - name: Reproducibility & Testing
-          description: FV3 and SHiELD regression testing.
-          icon: vials
-          icon_pack: fas
-        - name: High Performance Computing
-          description: Scalable, massively parallel simulation.
-          icon: server
-          icon_pack: fas
+  # - block: features
+  #   id: focus
+  #   content:
+  #     title: Focus Areas
+  #     items:
+  #       - name: Dynamical Core Development
+  #         description: Numerical algorithms and CFD schemes in GFDL's FV3.
+  #         icon: code
+  #         icon_pack: fas
+  #       - name: Grid Nesting
+  #         description: Multiple same-level and telescoping nests.
+  #         icon: layer-group
+  #         icon_pack: fas
+  #       - name: Duo-Grid
+  #         description: Removing cubed-sphere grid imprinting.
+  #         icon: border-all
+  #         icon_pack: fas
+  #       - name: Atmosphere-Ocean Coupling
+  #         description: SHiELD-MOM6-SIS2 coupled modeling.
+  #         icon: water
+  #         icon_pack: fas
+  #       - name: Reproducibility & Testing
+  #         description: FV3 and SHiELD regression testing.
+  #         icon: vials
+  #         icon_pack: fas
+  #       - name: High Performance Computing
+  #         description: Scalable, massively parallel simulation.
+  #         icon: server
+  #         icon_pack: fas
 
-  - block: experience
-    id: experience
-    content:
-      title: Professional Positions
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      items:
-        - title: Computational Scientist
-          company: GFDL / NOAA
-          company_url: 'https://www.gfdl.noaa.gov/'
-          company_logo: ''
-          location: Princeton, NJ, USA
-          date_start: '2020-01-01'
-          date_end: ''
-          description: |2-
-              Member of the FV3 team. Work includes:
+  # - block: experience
+  #   id: experience
+  #   content:
+  #     title: Professional Positions
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     items:
+  #       - title: Computational Scientist
+  #         company: GFDL / NOAA
+  #         company_url: 'https://www.gfdl.noaa.gov/'
+  #         company_logo: ''
+  #         location: Princeton, NJ, USA
+  #         date_start: '2020-01-01'
+  #         date_end: ''
+  #         description: |2-
+  #             Member of the FV3 team. Work includes:
 
-              * Development of the FV3 dynamical core
-              * Multiple same-level and telescoping grid nesting
-              * Duo-Grid implementation to eliminate grid imprinting
-              * SHiELD-MOM6 coupled atmosphere-ocean model development
-              * Reproducibility and regression testing for FV3 and SHiELD
-        - title: Research Software Engineer
-          company: Princeton University
-          company_url: 'https://www.princeton.edu/'
-          company_logo: ''
-          location: Princeton, NJ, USA
-          date_start: '2020-01-01'
-          date_end: ''
-          description: Research software engineering in support of atmospheric and ocean modeling at GFDL.
-        - title: Postdoctoral Fellow and Sessional Lecturer
-          company: University of Waterloo
-          company_url: 'https://uwaterloo.ca/'
-          company_logo: ''
-          location: Waterloo, ON, Canada
-          date_start: '2019-01-01'
-          date_end: '2020-12-31'
-          description: Direct Numerical Simulation of multiphase and turbulent compressible flows; teaching in mechanical engineering.
-    design:
-      columns: '2'
+  #             * Development of the FV3 dynamical core
+  #             * Multiple same-level and telescoping grid nesting
+  #             * Duo-Grid implementation to eliminate grid imprinting
+  #             * SHiELD-MOM6 coupled atmosphere-ocean model development
+  #             * Reproducibility and regression testing for FV3 and SHiELD
+  #       - title: Research Software Engineer
+  #         company: Princeton University
+  #         company_url: 'https://www.princeton.edu/'
+  #         company_logo: ''
+  #         location: Princeton, NJ, USA
+  #         date_start: '2020-01-01'
+  #         date_end: ''
+  #         description: Research software engineering in support of atmospheric and ocean modeling at GFDL.
+  #       - title: Postdoctoral Fellow and Sessional Lecturer
+  #         company: University of Waterloo
+  #         company_url: 'https://uwaterloo.ca/'
+  #         company_logo: ''
+  #         location: Waterloo, ON, Canada
+  #         date_start: '2019-01-01'
+  #         date_end: '2020-12-31'
+  #         description: Direct Numerical Simulation of multiphase and turbulent compressible flows; teaching in mechanical engineering.
+  #   design:
+  #     columns: '2'
 
   - block: portfolio
     id: research
     content:
       title: Research
-      subtitle: ''
-      text: |-
-        Click any project to see the details, figures and animations.
+      subtitle: 'Click any project to see the details, figures and animations'
+      # text: |-
+      #   Click any project to see the details, figures and animations.
       filters:
         folders:
           - research
@@ -145,8 +145,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        FV3 team — feel free to reach out about FV3, SHiELD, nesting, or coupled modeling.
-      email: joseph.mouallem@noaa.gov
+        Feel free to reach out!
       address:
         street: 201 Forrestal Road, Office 236
         city: Princeton
@@ -154,19 +153,22 @@ sections:
         postcode: '08542'
         country: United States
         country_code: US
-      contact_links:
-        - icon: envelope
-          icon_pack: fas
-          name: mouallem@princeton.edu
-          link: 'mailto:mouallem@princeton.edu'
-        - icon: graduation-cap
-          icon_pack: fas
-          name: Google Scholar
-          link: 'https://scholar.google.com/citations?user=YcMMTB8AAAAJ&hl=en'
-        - icon: github
-          icon_pack: fab
-          name: GitHub
-          link: 'https://github.com/JosephMouallem'
+      email: mouallem@princeton.edu
+      # contact_links:
+      #   - icon: envelope
+      #     icon_pack: fas
+      #     name: joseph.mouallem@noaa.gov
+      #     link: 'mailto:joseph.mouallem@noaa.gov'
+
+
+        # - icon: graduation-cap
+        #   icon_pack: fas
+        #   name: Google Scholar
+        #   link: 'https://scholar.google.com/citations?user=YcMMTB8AAAAJ&hl=en'
+        # - icon: github
+        #   icon_pack: fab
+        #   name: GitHub
+        #   link: 'https://github.com/JosephMouallem'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
