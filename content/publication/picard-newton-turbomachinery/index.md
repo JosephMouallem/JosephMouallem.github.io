@@ -3,14 +3,14 @@ title: "Picard–Newton iterative algorithm to solve the potential flow equation
 authors:
 - admin
 - Seyed Reza Amini Niaki
-date: "2019-06-10T00:00:00Z"
+date: "2019-08-01T00:00:00Z"
 doi: "10.1007/s40430-019-1819-3"
 
-publishDate: "2019-06-10T00:00:00Z"
+publishDate: "2019-08-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Journal of the Brazilian Society of Mechanical Sciences and Engineering* 41 (2019)"
+publication: "*Journal of the Brazilian Society of Mechanical Sciences and Engineering, 41*(8), 312"
 publication_short: ""
 
 abstract: ""

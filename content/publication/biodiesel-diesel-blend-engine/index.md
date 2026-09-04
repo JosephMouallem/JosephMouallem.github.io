@@ -4,14 +4,14 @@ authors:
 - Seyed Reza Amini Niaki
 - Sajad Mahdavi
 - admin
-date: "2017-12-20T00:00:00Z"
+date: "2018-07-01T00:00:00Z"
 doi: "10.1002/ep.12845"
 
-publishDate: "2017-12-20T00:00:00Z"
+publishDate: "2018-07-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Environmental Progress & Sustainable Energy* 37 (2017)"
+publication: "*Environmental Progress & Sustainable Energy, 37*(4), 1540-1550"
 publication_short: ""
 
 abstract: ""

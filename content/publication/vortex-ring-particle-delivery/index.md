@@ -19,7 +19,7 @@ publishDate: "2021-10-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Physics of Fluids, 33*(10)"
+publication: "*Physics of Fluids, 33*(10), 103305"
 publication_short: "*Phys. Fluids*"
 
 abstract: "A conceptual model for targeted particle delivery is proposed using controlled vortex ring reconnection. Entrained particles can be efficiently transported within the core of vortex rings which advect via self-induction. A pair of these particle-transporting vortex rings traveling in the streamwise direction along parallel trajectories will mutually interact, resulting in a pair of vortex reconnection events. The reconnection causes a topological change to the vortex ring which is accompanied by a rapid repulsion in a perpendicular plane to the direction of travel, effectively transporting the particles toward the desired location on the sidewalls of a ducted flow. In addition to proposing this conceptual model, we show the dominant physics of the process and the considerations for targeted delivery."

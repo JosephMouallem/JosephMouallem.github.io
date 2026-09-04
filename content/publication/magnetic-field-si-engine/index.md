@@ -6,14 +6,14 @@ authors:
 - Seyed Bahador Amini Niaki
 - admin
 - Sajad Mahdavi
-date: "2019-07-17T00:00:00Z"
+date: "2020-03-01T00:00:00Z"
 doi: "10.1002/ep.13317"
 
-publishDate: "2019-07-17T00:00:00Z"
+publishDate: "2020-03-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Environmental Progress & Sustainable Energy* 39 (2019)"
+publication: "*Environmental Progress & Sustainable Energy, 39*(2), e13317"
 publication_short: ""
 
 abstract: ""

@@ -13,7 +13,7 @@ publishDate: "2020-03-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Physics of Fluids* 32 (2020)"
+publication: "*Physics of Fluids, 32*(3), 035104"
 publication_short: ""
 
 abstract: ""

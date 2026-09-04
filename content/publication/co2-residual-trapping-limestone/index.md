@@ -13,7 +13,7 @@ publishDate: "2025-09-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Fuel* 396 (2025)"
+publication: "*Fuel, 396*, 135327"
 publication_short: ""
 
 abstract: ""

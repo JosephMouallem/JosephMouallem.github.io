@@ -13,7 +13,7 @@ publishDate: "2020-01-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*AIChE Journal* 66 (2020)"
+publication: "*AIChE Journal, 66*(1), e16763"
 publication_short: ""
 
 abstract: ""

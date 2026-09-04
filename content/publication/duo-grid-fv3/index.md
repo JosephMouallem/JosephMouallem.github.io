@@ -17,7 +17,7 @@ publishDate: "2023-12-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Advances in Modeling Earth Systems, 15*(12)"
+publication: "*Journal of Advances in Modeling Earth Systems, 15*(12), e2023MS003712"
 publication_short: "*JAMES*"
 
 abstract: "The gnomonic cubed-sphere grid has excellent accuracy and uniformity, but the 'kink' in the coordinates at the cube edges in the halo region can leave an imprint of the cube in the solution, and requires special edge handling. To reduce grid imprinting, we implement the novel 'Duo-Grid' within FV3. The Duo-Grid remaps a cube face's data from neighboring face from kinked to natural locations along great circle lines using 1D piecewise linear interpolation. A 2D interpolation algorithm is used to fill correct data at the eight corners of the cubed-sphere needed for FV3's 2D advection scheme. The Duo-Grid was tested in idealized tests using the 2D shallow water solver and the 3D hydrostatic and non-hydrostatic solvers: Rossby-Haurwitz wave lasts longer and the southern hemisphere of the baroclinic wave test is noise free. We found that error norms are greatly reduced and grid imprinting is practically eliminated when employing the Duo-Grid. These results indicate that FV3's robustness has improved."

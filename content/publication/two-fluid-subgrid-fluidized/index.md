@@ -13,7 +13,7 @@ publishDate: "2021-01-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Chemical Engineering Science* 229 (2021)"
+publication: "*Chemical Engineering Science, 229*, 116021"
 publication_short: ""
 
 abstract: ""

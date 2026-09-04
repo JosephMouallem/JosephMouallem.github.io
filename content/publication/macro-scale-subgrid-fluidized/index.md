@@ -13,7 +13,7 @@ publishDate: "2022-11-28T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*The Canadian Journal of Chemical Engineering* 101 (2022)"
+publication: "*The Canadian Journal of Chemical Engineering, 101*(6), 3559-3575"
 publication_short: ""
 
 abstract: ""

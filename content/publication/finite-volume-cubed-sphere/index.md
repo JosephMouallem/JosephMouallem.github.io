@@ -11,7 +11,7 @@ publishDate: "2025-02-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Journal of Computational Physics* 522 (2025)"
+publication: "*Journal of Computational Physics, 522*, 113618"
 publication_short: ""
 
 abstract: ""

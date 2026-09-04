@@ -19,7 +19,7 @@ publishDate: "2024-12-01T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Journal of Advances in Modeling Earth Systems* 16 (2024)"
+publication: "*Journal of Advances in Modeling Earth Systems, 16*(12), e2024MS004430"
 publication_short: ""
 
 abstract: ""

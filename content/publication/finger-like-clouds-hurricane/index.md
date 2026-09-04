@@ -4,14 +4,14 @@ authors:
 - Kun Gao
 - admin
 - Lucas Harris
-date: "2024-12-10T00:00:00Z"
+date: "2024-12-16T00:00:00Z"
 doi: "10.1029/2024GL110810"
 
-publishDate: "2024-12-10T00:00:00Z"
+publishDate: "2024-12-16T00:00:00Z"
 
 publication_types: ["2"]
 
-publication: "*Geophysical Research Letters* 51 (2024)"
+publication: "*Geophysical Research Letters, 51*(23), e2024GL110810"
 publication_short: ""
 
 abstract: ""
