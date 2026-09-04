@@ -47,6 +47,23 @@ interest is directed toward the dilute conditions typical of riser flows.
 
 {{< figure src="riser-flow.png" title="Instantaneous solid volume fraction for increasing solids loading (left to right) and increasing gas Reynolds number (top to bottom). The cluster structure — and therefore the sub-grid closure — depends strongly on both macro-scale parameters." >}}
 
+## The drag closure is not scale separated
+
+The drag coefficient correction H, the single most influential sub-grid term, is
+the clearest evidence of the failure of scale separation. Correlating H against
+the meso-scale filtered variables alone leaves a systematic spread that is set
+entirely by the macro-scale state of the flow.
+
+{{< figure src="drag-correction.png" title="Drag coefficient correction H against the filtered solid volume fraction. (a) Effect of the domain average gas Reynolds number at fixed solids loading; (b) effect of the domain average solid volume fraction at fixed Reynolds number. Curves that should collapse if scale separation held instead fan out by a factor of two or more." >}}
+
+## The same holds for the stress closures
+
+The effect is not limited to drag. The filtered solid pressure, which closes the
+solid-phase momentum equation, shifts by roughly an order of magnitude across the
+range of macro-scale conditions at an otherwise identical filtered state.
+
+{{< figure src="filtered-solid-pressure.png" title="Dimensionless filtered solid pressure against the filtered solid volume fraction. (a) Varying the domain average gas Reynolds number; (b) varying the domain average solid volume fraction. The vertical spread at fixed filtered state is the macro-scale signature that traditional closures ignore." >}}
+
 ## Conclusion
 
 Results show that **both** macro-scale parameters should be accounted for in

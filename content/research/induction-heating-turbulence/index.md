@@ -31,7 +31,9 @@ We develop a semi-empirical model for solid particle heating through hysteresis
 and Joule mechanisms, as these dispersed particles are heated by an external
 high-frequency alternating magnetic field.
 
-{{< figure src="induction-heating.png" title="Gas temperature field (colors) and particle positions (black dots) at successive times. As heating progresses the thermal fluctuations grow and the particle clustering pattern evolves." >}}
+{{< figure src="heating-model-validation.png" title="Validation of the semi-empirical induction heating model against the experimental data of Bae et al. (2015). Symbols are measurements for four particle loadings (5 to 20 phr); solid lines are the model, each with its own induction heating timescale. Higher loading heats faster and reaches a higher equilibrium temperature." >}}
+
+{{< figure src="induction-heating.png" title="Gas temperature field (colors) and particle positions (black dots) in a 2D slice of the domain at t = 10, for increasing particle thermal response time (left to right). Hotter gas develops around the particle-laden regions as the thermal fluctuations grow." >}}
 
 ## Key results
 
@@ -47,6 +49,16 @@ high-frequency alternating magnetic field.
   decay, the decay occurs across the entire spectrum.
 - Aggressive heating (shorter induction heating timescales) **reduces particle
   clustering**, whereas the particle thermal response time shows no such effect.
+
+## Heating de-clusters the particles
+
+Preferential concentration is measured with the radial distribution function.
+The unheated case shows the strongest clustering at small separations, and the
+clustering weakens monotonically as the induction heating becomes more
+aggressive, while changing the particle thermal response time leaves the
+distribution essentially unchanged.
+
+{{< figure src="particle-clustering-rdf.png" title="Radial distribution function of the particles at t = 30 for all cases, with a zoom on the small-separation limit. The unheated reference (I∞T0) clusters the most; shorter induction heating timescales (I10T10 to I01T10) progressively reduce clustering, while varying the thermal response time (I1T10, I1T100, I1T1000) has little effect." >}}
 
 ## Reference
 
