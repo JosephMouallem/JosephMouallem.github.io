@@ -18,7 +18,8 @@ image:
   placement: 1
   caption: 'Vortex displacement and vortex split SSW events in the idealized FV3 setup'
   focal_point: 'smart'
-  preview_only: yes
+  preview_only: false
+  filename: mountain.gif
 
 banner:
   image: 'featured.png'
