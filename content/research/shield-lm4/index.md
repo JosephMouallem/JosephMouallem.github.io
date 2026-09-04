@@ -2,7 +2,7 @@
 title: 'SHiELD-LM4: Coupled Land-Atmosphere Modeling'
 summary: "A high-resolution coupled atmosphere-land model integrating SHiELD and the Land Model 4 (LM4) through GFDL's FMS coupler."
 type: project
-date: 2025-09-26
+date: 2026-09-08
 tags:
   - Coupled Modeling
   - SHiELD
