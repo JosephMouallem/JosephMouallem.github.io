@@ -124,7 +124,8 @@ sections:
       archive:
         enable: true
         text: View all publications
-        link: /publication/
+        # No `link:` override — the theme derives the archive URL from the
+        # collection's own page, which stays correct under a subpath baseURL.
     design:
       columns: '2'
       view: card
