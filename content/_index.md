@@ -114,30 +114,20 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Selected Publications
       filters:
         folders:
           - publication
         featured_only: true
+      # Show all selected publications (0 = no limit)
+      count: 0
+      archive:
+        enable: true
+        text: View all publications
+        link: /publication/
     design:
       columns: '2'
       view: card
-
-  - block: collection
-    id: Publications
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
 
   - block: contact
     id: contact
