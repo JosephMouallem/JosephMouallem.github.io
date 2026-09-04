@@ -1,5 +1,5 @@
 ---
-title: 'Multiple Same-Level and Telescoping Grid Nesting in FV3'
+title: 'Multiple Same-Level and Telescoping Grid Nesting'
 summary: Two-way multiple same-level and telescoping grid nesting implemented in GFDL's FV3 dynamical core, available to the community since the 2021 public release.
 type: project
 date: 2022-06-07
@@ -11,13 +11,20 @@ tags:
 weight: 30
 
 image:
-  caption: 'Telescoping nests refining from ~13 km down to ~0.5 km resolution'
-  focal_point: Smart
+  placement: 1
+  caption: ''
+  focal_point: 'smart'
+  preview_only: yes
 
-links: []
-url_code: ''
-url_pdf: ''
-url_video: ''
+banner:
+  image: 'featured.png'
+  caption: ""
+  focal_point: 'center'
+
+# links: []
+# url_code: ''
+# url_pdf: ''
+# url_video: ''
 ---
 
 ## Overview
