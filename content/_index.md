@@ -137,37 +137,14 @@ sections:
       subtitle:
       text: |-
         Feel free to reach out!
-      address:
-        street: 201 Forrestal Road, Office 236
-        city: Princeton
-        region: NJ
-        postcode: '08542'
-        country: United States
-        country_code: US
       email: mouallem@princeton.edu
-      # contact_links:
-      #   - icon: envelope
-      #     icon_pack: fas
-      #     name: joseph.mouallem@noaa.gov
-      #     link: 'mailto:joseph.mouallem@noaa.gov'
-
-
-        # - icon: graduation-cap
-        #   icon_pack: fas
-        #   name: Google Scholar
-        #   link: 'https://scholar.google.com/citations?user=YcMMTB8AAAAJ&hl=en'
-        # - icon: github
-        #   icon_pack: fab
-        #   name: GitHub
-        #   link: 'https://github.com/JosephMouallem'
+      contact_links:
+        - icon: linkedin
+          icon_pack: fab
+          name: Joseph Mouallem
+          link: 'https://www.linkedin.com/in/joseph-mouallem-614ab18b'
       # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '2'
 ---
