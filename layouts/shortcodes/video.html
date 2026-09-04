@@ -1,0 +1,9 @@
+<figure>
+  <video controls autoplay loop muted playsinline style="width: 100%; height: auto;">
+    <source src="{{ .Get "src" }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  {{ with .Get "title" }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

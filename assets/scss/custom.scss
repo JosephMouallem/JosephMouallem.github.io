@@ -1,0 +1,78 @@
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+// .article-banner {
+//   width: 50%;
+//   max-width: 80%;
+//   height: 10%;
+//   margin: 0 auto;
+// }
+
+
+.article-banner {
+  height: auto;
+  max-height: 1200px;
+  width: auto;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+// .article-banner {
+//   width: 100%;
+//   margin: 0 auto;
+// }
+
+// .article-banner img {
+//   max-width: 80%;
+//   max-height: 500px;
+//   width: auto;
+//   height: auto;
+//   display: block;
+//   margin: 0 auto;
+// }
+// Research showcase: give every card's media the same footprint so rows line
+// up, regardless of the source figure's aspect ratio. `contain` is used rather
+// than `cover` so scientific figures are never cropped.
+.view-showcase {
+  // Tighter than Bootstrap's `mb-5` (3rem) so the project list reads as one
+  // group. Each card is the only child of an isotope wrapper, so the trailing
+  // card is zeroed via the wrapper rather than `&:last-child`.
+  margin-bottom: 1.75rem;
+
+  .project-preview-video,
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+}
+
+// Publications: the citation view now renders the title on its own line above
+// the author list (see layouts/partials/views/citation.html).
+.pub-list-item.view-citation {
+  .cite-title {
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .li-cite-author {
+    display: inline;
+  }
+}
+
+// Card view: keep a little breathing room between the title and the authors.
+.view-card .article-metadata {
+  margin-top: 0.25rem;
+}
+
+// The showcase cards sit inside isotope wrappers; drop the trailing card's
+// margin so the section's own padding isn't doubled up.
+.isotope-item:last-child .view-showcase {
+  margin-bottom: 0;
+}
