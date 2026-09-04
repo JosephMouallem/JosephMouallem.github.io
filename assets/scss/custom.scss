@@ -37,6 +37,11 @@ nav#navbar-main li.nav-item {
 // up, regardless of the source figure's aspect ratio. `contain` is used rather
 // than `cover` so scientific figures are never cropped.
 .view-showcase {
+  // Tighter than Bootstrap's `mb-5` (3rem) so the project list reads as one
+  // group. Each card is the only child of an isotope wrapper, so the trailing
+  // card is zeroed via the wrapper rather than `&:last-child`.
+  margin-bottom: 1.75rem;
+
   .project-preview-video,
   img {
     display: block;
@@ -64,4 +69,10 @@ nav#navbar-main li.nav-item {
 // Card view: keep a little breathing room between the title and the authors.
 .view-card .article-metadata {
   margin-top: 0.25rem;
+}
+
+// The showcase cards sit inside isotope wrappers; drop the trailing card's
+// margin so the section's own padding isn't doubled up.
+.isotope-item:last-child .view-showcase {
+  margin-bottom: 0;
 }
