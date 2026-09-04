@@ -13,8 +13,7 @@ publication_types: ["2"]
 publication: "*Journal of the Brazilian Society of Mechanical Sciences and Engineering, 41*(8), 312"
 publication_short: ""
 
-abstract: ""
-
+abstract: "Computing the velocity field magnitude with prescribed velocities on the pressure and suction sides represents the most important step in the inverse design of transonic axial turbomachinery blade profiles. The objective is to develop a numerical method to solve the isentropic velocity field with prescribed velocities at the boundaries. We will present the computational methods developed to solve the potential flow equation leading to the isentropic velocity field, overcoming the problems linked to the presence of singularities at the leading and trailing edges. A combination of Picard and Newton iterative algorithms is used. The numerical algorithm is validated on subsonic and supersonic planar source flow test cases then used on real flow cases of subsonic compressors and transonic turbines. We are able to obtain fully converged isentropic velocity fields."
 summary: ""
 
 tags: []
