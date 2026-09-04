@@ -98,4 +98,4 @@ Mouallem, J., Malyshev, S., Tan, Z., Shevliakova, E., Gao, K., Harris, L.,
 Benson, R., Cooke, W., Zadeh, N., and Chilutti, L.: *Development of a 
 high-resolution coupled SHiELD-MOM6-LM4 – Part 2: Model overview, coupling 
 technique, and evaluation of hydrological extremes during Hurricane Helene*, 
-**Geoscientific Model Development** (accepted), 2025.
+**Geoscientific Model Development** (accepted), 2026.
