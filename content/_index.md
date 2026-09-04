@@ -135,8 +135,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Feel free to reach out!
+      # text: |-
       email: mouallem@princeton.edu
       contact_links:
         - icon: linkedin
