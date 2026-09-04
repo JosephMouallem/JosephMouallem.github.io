@@ -43,18 +43,35 @@ linear interpolation. A separate 2D interpolation algorithm fills the correct
 data at the eight corners of the cubed-sphere, which FV3's 2D advection scheme
 requires.
 
-## Validation
+{{< figure src="kinkduo.png" title="C8 cubed-sphere grid with a three-cell halo. Left: “kinked” grid showing halo updated directly from the neighboring face. Right: “extended” grid for the forward face showing data remapped onto the extended grid. Note that the great circle coordinate lines extend from the compute domain into the grid halo without interruption.." >}}
 
-The Duo-Grid was tested in idealized cases using the 2D shallow water solver and
-the 3D hydrostatic and non-hydrostatic solvers.
+
+
+## Validation
+The Duo-Grid was evaluated across a comprehensive suite of idealized test cases spanning both two-dimensional shallow-water dynamics and three-dimensional hydrostatic and non-hydrostatic flows. These tests were designed to assess the impact of the Duo-Grid on grid imprinting, numerical errors, and the overall behavior of the FV3 dynamical core.
+
+The steady-state geostrophic balance test provides a direct assessment of cubed-sphere grid imprinting. When the flow is oriented perpendicular to the cubed-sphere edges, the conventional kinked grid produces errors aligned with the cube geometry. With the Duo-Grid, these grid-aligned errors are substantially reduced.
+
+{{< figure src="case2.gif" title=" Meridional velocity errors of the C48 steady state geostrophic balance flow with a flow oriented perpendicular to the cubed-sphere edges. Duo-Grid significantly reduces these errors." >}}
+
+The improvement extends to fully three-dimensional dynamics. In the baroclinic wave test, the Duo-Grid suppresses the development of cubed-sphere imprinting and errors in the southern hemisphere while maintaining the evolution of the solution over time.
+
+{{< figure src="case13_glob_C48_dpi100.gif" title=" Time evolution of meridional winds in the three-dimensional baroclinic wave test, demonstrating the reduced cubed-sphere errors in the southern hemisphere with the Duo-Grid. " >}}
+
+The Duo-Grid was further evaluated using a broad suite of standard idealized tests, including shallow-water steady-state geostrophic flow, the splash test, Rossby–Haurwitz wave, colliding modons, cosine-bell advection, and the three-dimensional non-hydrostatic baroclinic wave.
 
 {{< figure src="duo-grid-tests.gif" title="Idealized test suite run on the Duo-Grid: shallow-water steady-state geostrophic flow, splash test, Rossby-Haurwitz wave, colliding modons, cosine bell advection, and the 3D non-hydrostatic baroclinic wave." >}}
 
+Across these tests, the Duo-Grid consistently reduces grid imprinting and numerical errors while preserving the accuracy and numerical characteristics of the original FV3 formulation.
 ## Key results
 
-- The Rossby-Haurwitz wave remains coherent for substantially longer.
-- The southern hemisphere of the baroclinic wave test is noise free.
-- Error norms are greatly reduced and grid imprinting is practically eliminated.
+- Grid imprinting of the cubed sphere is greatly reduced in idealized tests and practically eliminated.
+- Duo-Grid decreases the growth rate of error norms in all cases compared to the kinked grid, up to one order of magnitude.
+- Order of accuracy of FV3’s horizontal discretization is conserved.
+- Dispersion and dissipation properties are identical to those of the original FV3 algorithm.
+- Edge handling code is eliminated -> significant performance gain in current/future GPU development
+- FV3’s robustness and accuracy have increased.
+
 
 These results indicate a clear improvement in FV3's robustness.
 
