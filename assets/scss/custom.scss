@@ -4,8 +4,32 @@ nav#navbar-main li.nav-item {
   font-weight: bold;
 }
 
+// .article-banner {
+//   width: 50%;
+//   max-width: 80%;
+//   height: 10%;
+//   margin: 0 auto;
+// }
+
+
 .article-banner {
-  width: 60%;
   height: auto;
+  max-height: 600px;
+  width: auto;
+  max-width: 80%;
   margin: 0 auto;
 }
+
+// .article-banner {
+//   width: 100%;
+//   margin: 0 auto;
+// }
+
+// .article-banner img {
+//   max-width: 80%;
+//   max-height: 500px;
+//   width: auto;
+//   height: auto;
+//   display: block;
+//   margin: 0 auto;
+// }

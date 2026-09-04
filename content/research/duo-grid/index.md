@@ -11,8 +11,15 @@ tags:
 weight: 20
 
 image:
-  caption: 'Idealized test suite used to validate the Duo-Grid in FV3'
-  focal_point: Smart
+  placement: 1
+  caption: ''
+  focal_point: 'smart'
+  preview_only: yes
+
+banner:
+  image: 'featured_cropped.gif'
+  caption: ""
+  focal_point: 'center'
 
 links: []
 url_code: ''
