@@ -15,8 +15,7 @@ image:
   placement: 1
   caption: 'Hurricane Helene (2024) in the coupled SHiELD-MOM6 North Atlantic configuration'
   focal_point: 'smart'
-  preview_only: false
-  filename: helene-slp-sst.gif
+  preview_only: yes
 
 banner:
   # image: 'featured_old.png'

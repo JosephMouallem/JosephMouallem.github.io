@@ -12,8 +12,6 @@ weight: 50
 image:
   caption: 'Reconnection of a pair of particle-laden vortex rings'
   focal_point: Smart
-  preview_only: false
-  filename: vortex-ring-reconnection.gif
 
 links: []
 url_code: ''

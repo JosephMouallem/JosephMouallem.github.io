@@ -14,8 +14,7 @@ image:
   placement: 1
   caption: ''
   focal_point: 'smart'
-  preview_only: false
-  filename: featured.png
+  preview_only: yes
 
 banner:
   image: 'featured.png'

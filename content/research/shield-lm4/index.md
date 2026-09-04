@@ -15,8 +15,7 @@ image:
   placement: 1
   caption: 'Global precipitation, runoff, and river discharge during Hurricane Helene (2024)'
   focal_point: 'smart'
-  preview_only: false
-  filename: Global_zoomed_precip_runoff_river.gif
+  preview_only: yes
 
 banner:
   image: 'Global_zoomed_precip_runoff_river.gif'
