@@ -1,6 +1,6 @@
 ---
 title: 'The Duo-Grid and Cubed-Sphere Grid Imprinting'
-summary: A novel halo-remapping technique that removes the cube-edge kink of the gnomonic cubed-sphere grid, practically eliminating grid imprinting in FV3.
+summary: 'An efficient refinement strategy for the cubed-sphere grid that enables regional simulations in the global FV3 dynamical core without regridding.'
 type: project
 date: 2023-12-01
 tags:
@@ -26,6 +26,10 @@ url_code: ''
 url_pdf: ''
 url_video: ''
 ---
+## Motivation
+
+Addressing the challenge of running localized high-resolution simulations within a global model, the duo-grid imprints a finer mesh over a region of interest, reducing computational cost by an order of magnitude compared to traditional regridding approaches.
+
 
 ## The problem: grid imprinting
 

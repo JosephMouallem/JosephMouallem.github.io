@@ -1,6 +1,6 @@
 ---
 title: 'A Minimal, Adiabatic Example of Sudden Stratospheric Warming'
-summary: An idealized, adiabatic test case of Sudden Stratospheric Warming in FV3 that reproduces both vortex displacement and vortex split events.
+summary: 'A minimal adiabatic example of sudden stratospheric warming (SSW) using idealized simulations in the GFDL FV3 dynamical core.'
 type: project
 math: true
 date: 2025-09-01
@@ -32,6 +32,10 @@ banner:
 # url_pdf: ''
 # url_video: ''
 ---
+## Motivation
+
+Sudden stratospheric warmings have profound impacts on surface weather weeks later. This idealized modeling study isolates the key physical mechanisms driving SSW dynamics, building intuition and validating model representations of stratospheric-tropospheric coupling.
+
 
 ## Overview
 

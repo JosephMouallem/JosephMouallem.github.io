@@ -1,6 +1,6 @@
 ---
 title: 'SHiELD-LM4: Coupled Land-Atmosphere Modeling'
-summary: High-resolution coupled atmosphere-land model integrating SHiELD with GFDL's Land Model (LM4) through the FMS coupler, with applications to extreme precipitation and land-atmosphere interactions.
+summary: "A high-resolution coupled atmosphere-land model integrating SHiELD and the Land Model 4 (LM4) through GFDL's FMS coupler."
 type: project
 date: 2025-09-26
 tags:
@@ -23,6 +23,10 @@ banner:
   focal_point: 'center'
 
 ---
+## Motivation
+
+Land-atmosphere interactions drive weather and climate extremes. This system integrates advanced atmospheric and land processes to capture how soil moisture, vegetation, and runoff feedback on regional weather patterns, advancing forecast skill for hydrological extremes.
+
 
 ## Overview
 

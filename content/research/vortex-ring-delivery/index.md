@@ -1,6 +1,6 @@
 ---
 title: 'Targeted Particle Delivery via Vortex Ring Reconnection'
-summary: A conceptual model for delivering entrained particles to a target location on the walls of a duct using controlled vortex ring reconnection.
+summary: 'A conceptual model for targeted particle delivery using controlled vortex ring reconnection in a duct.'
 type: project
 date: 2021-10-01
 tags:
@@ -25,6 +25,10 @@ url_code: ''
 url_pdf: ''
 url_video: ''
 ---
+## Motivation
+
+Precise particle targeting is important in manufacturing, propulsion, and medical applications. This work shows how vortex ring dynamics can coherently transport particles to specific wall locations, with design parameters (ring size, Stokes number) controlling delivery accuracy.
+
 
 ## Concept
 

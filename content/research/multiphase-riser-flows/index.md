@@ -1,6 +1,6 @@
 ---
 title: 'Macro-Scale Effects on Sub-Grid Closures in Gas-Solid Riser Flows'
-summary: Filtered two-fluid modeling of gas-solid riser flows, showing that macro-scale flow topology must be accounted for in sub-grid closure correlations.
+summary: 'Macro-scale flow topology effects on sub-grid closure models in filtered two-fluid simulations of gas-solid riser flows.'
 type: project
 date: 2018-06-01
 tags:
@@ -19,6 +19,10 @@ url_code: ''
 url_pdf: ''
 url_video: ''
 ---
+## Motivation
+
+Sub-grid closures for two-fluid models are traditionally derived at a single scale, but this work demonstrates that flow topology at the system scale strongly affects closure accuracy. Accounting for these effects is essential for predictive industrial riser flow simulations.
+
 
 ## Background
 

@@ -1,6 +1,6 @@
 ---
 title: 'SHiELD-MOM6: High-Resolution Coupled Atmosphere-Ocean Modeling'
-summary: A new high-resolution coupled atmosphere-ocean model integrating SHiELD, MOM6 and SIS2 through the FMS coupler and its exchange grid.
+summary: "A high-resolution coupled atmosphere-ocean model integrating SHiELD, MOM6, and SIS2 through GFDL's FMS coupler and exchange grid."
 type: project
 date: 2025-09-26
 tags:
@@ -29,6 +29,10 @@ banner:
 # url_pdf: ''
 # url_video: ''
 ---
+## Motivation
+
+Air-sea interactions drive storm intensity and ocean response. This coupled system captures two-way feedback between the atmosphere and ocean at kilometer scales, enabling accurate simulations of hurricane-ocean interactions and coastal impacts.
+
 
 ## Overview
 

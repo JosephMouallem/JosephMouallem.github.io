@@ -1,6 +1,6 @@
 ---
 title: 'Multiple Same-Level and Telescoping Grid Nesting'
-summary: Two-way multiple same-level and telescoping grid nesting implemented in GFDL's FV3 dynamical core, available to the community since the 2021 public release.
+summary: "A flexible nesting implementation in GFDL's dynamical core enabling both same-level and telescoping grids for multi-scale simulations."
 type: project
 date: 2022-06-07
 tags:
@@ -26,6 +26,10 @@ banner:
 # url_pdf: ''
 # url_video: ''
 ---
+## Motivation
+
+Multi-scale modeling often requires simulations at many different resolutions. This work shows how to couple coarse and fine domains within a single dynamical core, enabling cost-effective high-resolution forecasts of localized phenomena like hurricanes.
+
 
 ## Overview
 

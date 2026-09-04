@@ -1,6 +1,6 @@
 ---
 title: 'Induction Heating of Dispersed Metallic Particles in a Turbulent Flow'
-summary: Direct Numerical Simulation of inductively heated metallic particles dispersed in a decaying isotropic turbulent carrier gas.
+summary: 'Direct Numerical Simulation of inductively heated metallic particles dispersed in a decaying isotropic turbulent carrier gas.'
 type: project
 date: 2020-11-01
 tags:
@@ -19,6 +19,10 @@ url_code: ''
 url_pdf: ''
 url_video: ''
 ---
+## Motivation
+
+Induction heating of particles in flight is relevant to advanced combustion and energy conversion systems. This DNS study reveals how rapid heating reduces particle clustering and alters turbulent structures, informing the design of more efficient heating systems.
+
 
 ## Overview
 
