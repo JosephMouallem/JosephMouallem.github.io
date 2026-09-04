@@ -10,8 +10,15 @@ tags:
 weight: 50
 
 image:
+  placement: 1
   caption: 'Reconnection of a pair of particle-laden vortex rings'
-  focal_point: Smart
+  focal_point: 'smart'
+  preview_only: yes
+
+banner:
+  image: 'vortex-ring-reconnection.gif'
+  caption: ""
+  focal_point: 'center'
 
 links: []
 url_code: ''
