@@ -9,7 +9,7 @@ tags:
   - MOM6
   - FV3
   - HPC
-weight: 10
+weight: 40
 
 image:
   placement: 1
@@ -45,6 +45,13 @@ SHiELD physics parametrization suite, while the ocean component is the latest
 version of MOM, supporting kilometer-scale high-resolution and regional
 applications.
 
+## Coupling infrastructure
+
+
+The SHiELD-MOM6 model employs the Flexible Modeling System (FMS) coupler, which facilitates the exchange of information between the atmospheric and oceanic components. The exchange grid ensures accurate and efficient communication, enabling the two-way interaction necessary for realistic coupled simulations.
+
+{{< figure src="atm_ocn.png" title="Schematic of a one-dimensional exchange grid and communication map between the atmosphere and ice components at different resolutions. The red sides of the arrow indicate the step where variables are projected from the exchange grid. The light-blue and mauve sides of the arrows represent the projection of variables onto the exchange grid from the atmosphere or ice components, respectively." >}}
+
 ## Hurricane Helene (2024)
 
 Validation is demonstrated through a suite of experiments, including idealized
@@ -54,6 +61,14 @@ and 10 m winds (left) alongside the sea surface temperature anomaly and ocean
 surface currents (right) as the storm crosses the Gulf.
 
 {{< figure src="helene-slp-sst.gif" title="Hurricane Helene (2024): sea level pressure and surface winds (left); sea surface temperature change and ocean currents (right). The cold wake and upwelling behind the storm are captured by the two-way coupling." >}}
+
+
+## Scalability
+
+Scalability tests have been conducted to evaluate the model's performance on massively parallel computing systems. The results demonstrate that SHiELD-MOM6 maintains high computational efficiency as the number of processors increases, ensuring that high-resolution coupled simulations can be performed within practical timeframes
+
+{{< figure src="scaling_strong_weak.png" title="Strong scaling (a) and weak scaling (b): actual speedup/efficiency (red circles) compared to ideal speedup/efficiency (black squares) as a function of the number of PEs." >}}
+
 
 ## Key results
 
