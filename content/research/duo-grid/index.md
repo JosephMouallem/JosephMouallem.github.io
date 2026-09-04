@@ -52,7 +52,7 @@ The Duo-Grid was evaluated across a comprehensive suite of idealized test cases 
 
 The steady-state geostrophic balance test provides a direct assessment of cubed-sphere grid imprinting. When the flow is oriented perpendicular to the cubed-sphere edges, the conventional kinked grid produces errors aligned with the cube geometry. With the Duo-Grid, these grid-aligned errors are substantially reduced.
 
-{{< figure src="case2_small.gif" title=" Meridional velocity errors of the C48 steady state geostrophic balance flow with a flow oriented perpendicular to the cubed-sphere edges. Duo-Grid significantly reduces these errors." >}}
+{{< figure src="case2.gif" title=" Meridional velocity errors of the C48 steady state geostrophic balance flow with a flow oriented perpendicular to the cubed-sphere edges. Duo-Grid significantly reduces these errors." >}}
 
 
 The improvement extends to fully three-dimensional dynamics. In the baroclinic wave test, the Duo-Grid suppresses the development of cubed-sphere imprinting and errors in the southern hemisphere while maintaining the evolution of the solution over time.
