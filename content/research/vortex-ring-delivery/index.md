@@ -42,6 +42,24 @@ In addition to proposing this conceptual model, we identify the dominant physics
 of the process and the design considerations required to achieve targeted
 delivery.
 
+## Particle inertia sets the delivery
+
+Whether the particles actually follow the rings is governed by the Stokes number.
+Low-inertia particles stay locked to the ring cores and are carried coherently
+through both reconnections, while high-inertia particles decouple from the
+vortex and disperse before reaching the wall.
+
+{{< figure src="stokes-number.png" title="Mean streamwise particle position (left) and mean wall-normal particle position (right) for St = 0.1, 1 and 10. Shaded bands show one standard deviation and the dashed lines mark the two reconnection events. At St = 0.1 and St = 1 the particles track the rings and are delivered together; at St = 10 they lag and spread widely." >}}
+
+## Design considerations
+
+The ring radius, relative to the channel width, controls how strongly the rings
+repel after reconnection and therefore where on the sidewall the particles
+arrive. This makes ring size the primary design parameter for aiming the
+delivery.
+
+{{< figure src="ring-size.png" title="Spreading angle θ after reconnection for three ring sizes, with R set by the channel width W: R = 0.15W (blue), R = 0.125W (green) and R = 0.1W (red). Larger rings separate more aggressively, moving the impact point further upstream." >}}
+
 ## Reference
 
 Mouallem, J., Daryan, H., Wawryk, J., Pan, Z., and Hickey, J.-P.: *Targeted
