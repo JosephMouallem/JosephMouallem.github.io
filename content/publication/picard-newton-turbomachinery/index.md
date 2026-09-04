@@ -2,6 +2,7 @@
 title: "Picard–Newton iterative algorithm to solve the potential flow equation for different turbomachinery flow regimes"
 authors:
 - admin
+- Johny Mouallem
 - Seyed Reza Amini Niaki
 date: "2019-08-01T00:00:00Z"
 doi: "10.1007/s40430-019-1819-3"
