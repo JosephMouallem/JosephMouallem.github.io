@@ -68,6 +68,6 @@ SHiELD-LM4 provides a unified framework for connecting atmospheric processes wit
 
 ## Reference
 
-Mouallem, J., Malyshev, S., Tan, Z., Shevliakova, E., Gao, K., Harris, L., Benson R., Cooke, W., Zadeh, N., Chilutti, L.: Development of a high-resolution coupled SHiELD-MOM6-LM4 – Part 2: Model overview, coupling technique, and evaluation of hydrological extremes during Hurricane Helene, Geoscientific Model Development, (accepted))
+Mouallem, J., Malyshev, S., Tan, Z., Shevliakova, E., Gao, K., Harris, L., Benson, R., Cooke, W., Zadeh, N., Chilutti, L.: Development of a high-resolution coupled SHiELD-MOM6-LM4 – Part 2: Model overview, coupling technique, and evaluation of hydrological extremes during Hurricane Helene, Geoscientific Model Development, (accepted))
 
 <!-- https://doi.org/10.5194/gmd-18-6461-2025 -->
