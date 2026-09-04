@@ -48,13 +48,20 @@ nav#navbar-main li.nav-item {
   }
 }
 
-// Publications: reorder title above authors in citation view by reversing
-// the flex direction on the pub-item-list container
-.pub-list-item {
-  display: flex;
-  flex-direction: column-reverse;
-  
-  .pub-info {
-    order: 2;
+// Publications: the citation view now renders the title on its own line above
+// the author list (see layouts/partials/views/citation.html).
+.pub-list-item.view-citation {
+  .cite-title {
+    font-weight: 600;
+    line-height: 1.35;
   }
+
+  .li-cite-author {
+    display: inline;
+  }
+}
+
+// Card view: keep a little breathing room between the title and the authors.
+.view-card .article-metadata {
+  margin-top: 0.25rem;
 }
