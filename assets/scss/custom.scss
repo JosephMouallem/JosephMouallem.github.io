@@ -33,10 +33,17 @@ nav#navbar-main li.nav-item {
 //   display: block;
 //   margin: 0 auto;
 // }
-// Animated previews in the Research showcase cards.
-.view-showcase .project-preview-video {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
+// Research showcase: give every card's media the same footprint so rows line
+// up, regardless of the source figure's aspect ratio. `contain` is used rather
+// than `cover` so scientific figures are never cropped.
+.view-showcase {
+  .project-preview-video,
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    border-radius: 4px;
+  }
 }
