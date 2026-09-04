@@ -11,11 +11,11 @@ authors:
 - William Cooke
 - Niki Zadeh
 - Lauren Chilutti
-date: "2026-05-19T00:00:00Z"
+date: "2026-08-27T00:00:00Z"
 doi: "10.5194/egusphere-2026-2014"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-05-19T00:00:00Z"
+publishDate: "2026-08-27T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
