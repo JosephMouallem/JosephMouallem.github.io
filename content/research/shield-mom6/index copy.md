@@ -21,7 +21,7 @@ banner:
   # image: 'featured_old.png'
   image: 'helene-slp-sst.gif'
   caption: ""
-  focal_point: 'center'
+  focal_point: 'smart'
   
 
 # links: []
@@ -45,7 +45,7 @@ SHiELD physics parametrization suite, while the ocean component is the latest
 version of MOM, supporting kilometer-scale high-resolution and regional
 applications.
 
-## Hurricane Helene (2024)
+## Hurricane Helene (2024) in the coupled model
 
 Validation is demonstrated through a suite of experiments, including idealized
 hurricane simulations and a realistic North Atlantic case study featuring

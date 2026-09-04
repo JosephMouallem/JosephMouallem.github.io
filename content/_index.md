@@ -124,9 +124,9 @@ sections:
       view: card
 
   - block: collection
-    id: publications
+    id: Publications
     content:
-      title: Publications
+      title: Recent Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).

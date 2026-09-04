@@ -14,9 +14,9 @@ organizations:
   - name: GFDL / NOAA
     url: https://www.gfdl.noaa.gov/
 
-bio: >-
-  Computational scientist working on GFDL's FV3 dynamical core: grid nesting,
-  the Duo-Grid, and coupled atmosphere-ocean modeling.
+# bio: >-
+#   Computational scientist working on GFDL's FV3 dynamical core: grid nesting,
+#   the Duo-Grid, and coupled atmosphere-ocean modeling.
 
 interests:
   - High Performance Computing

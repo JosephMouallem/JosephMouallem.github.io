@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: Research projects in atmospheric dynamical cores, coupled Earth system modeling, and computational fluid dynamics.
+# summary: Research projects in atmospheric dynamical cores, coupled Earth system modeling, and computational fluid dynamics.
 cms_exclude: true
 
 # View.
