@@ -4,14 +4,6 @@ nav#navbar-main li.nav-item {
   font-weight: bold;
 }
 
-// .article-banner {
-//   width: 50%;
-//   max-width: 80%;
-//   height: 10%;
-//   margin: 0 auto;
-// }
-
-
 .article-banner {
   height: auto;
   max-height: 1200px;
@@ -20,26 +12,10 @@ nav#navbar-main li.nav-item {
   margin: 0 auto;
 }
 
-// .article-banner {
-//   width: 100%;
-//   margin: 0 auto;
-// }
-
-// .article-banner img {
-//   max-width: 80%;
-//   max-height: 500px;
-//   width: auto;
-//   height: auto;
-//   display: block;
-//   margin: 0 auto;
-// }
 // Research showcase: give every card's media the same footprint so rows line
 // up, regardless of the source figure's aspect ratio. `contain` is used rather
 // than `cover` so scientific figures are never cropped.
 .view-showcase {
-  // Tighter than Bootstrap's `mb-5` (3rem) so the project list reads as one
-  // group. Each card is the only child of an isotope wrapper, so the trailing
-  // card is zeroed via the wrapper rather than `&:last-child`.
   margin-bottom: 1.75rem;
 
   .project-preview-video,
@@ -89,19 +65,74 @@ nav#navbar-main li.nav-item {
 }
 .dark .about-tagline { color: rgba(255, 255, 255, 0.8); }
 
+#coming-soon,
+#coming-soon .block-body,
+#coming-soon > div {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
 
-/* ---- "Coming soon" product-style teaser ---- */
+/* ---- "Coming soon" product-style teaser: full-bleed video with text overlay ---- */
 .teaser {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-  align-items: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 840px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  overflow: hidden; /* keeps the video clipped to the rounded corners */
   padding: 2.25rem;
-  border-radius: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background:
-    radial-gradient(120% 140% at 100% 0%, rgba(0, 119, 204, 0.10) 0%, rgba(0, 119, 204, 0) 55%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.015) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Video fills the entire card as a background layer */
+.teaser-media {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 840px;
+  inset: 0 ;
+  z-index: 0;
+}
+
+
+.teaser-media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 840px;
+  object-fit: cover;
+  object-position: center center;
+  background-color: #000;
+  transform: translateX(10%);
+}
+/* Dark scrim so text stays readable over any footage, in both light/dark mode */
+.teaser::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(0, 0, 0, 0.75) 38%,
+    rgba(0, 0, 0, 0.55) 50%,
+    rgba(0, 0, 0, 0.15) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+/* Text content sits above the video + scrim */
+.teaser-content {
+  position: relative;
+  z-index: 2;
+  max-width: 840px;
+}
+
+.teaser-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 560px;
 }
 
 .teaser-badge {
@@ -112,22 +143,23 @@ nav#navbar-main li.nav-item {
   font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--primary, #0077cc);
-  border: 1px solid rgba(0, 119, 204, 0.35);
-  background: rgba(0, 119, 204, 0.08);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(0, 119, 204, 0.35);
 }
 
 .teaser-title {
   margin: 0.9rem 0 0.6rem;
-  font-size: 2rem;
+  font-size: 2.1rem;
   line-height: 1.2;
   font-weight: 800;
+  color: #fff;
 }
 
 .teaser-lede {
   font-size: 1.05rem;
   line-height: 1.6;
-  color: var(--gray-700, #4a4a4a);
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 1.25rem;
 }
 
@@ -138,7 +170,7 @@ nav#navbar-main li.nav-item {
   list-style: none;
   margin: 0 0 1.1rem;
   padding: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 1.1rem;
 
   li {
@@ -149,30 +181,21 @@ nav#navbar-main li.nav-item {
   strong {
     font-size: 1.15rem;
     font-weight: 700;
-    color: var(--primary, #0077cc);
+    color: #6cb6ff;
     line-height: 1.2;
   }
 
   span {
     font-size: 0.82rem;
-    color: var(--gray-700, #4a4a4a);
+    color: rgba(255, 255, 255, 0.75);
   }
 }
 
 .teaser-note {
   font-size: 0.85rem;
   font-style: italic;
-  color: var(--gray-700, #4a4a4a);
+  color: rgba(255, 255, 255, 0.75);
   margin: 0;
-}
-
-.teaser-media video {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  background-color: #000;
-  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.16);
 }
 
 .teaser-caption {
@@ -180,30 +203,38 @@ nav#navbar-main li.nav-item {
   font-size: 0.8rem;
   line-height: 1.45;
   text-align: center;
-  color: var(--gray-700, #4a4a4a);
+  color: rgba(255, 255, 255, 0.75);
 }
-
-.dark .teaser {
-  border-color: rgba(255, 255, 255, 0.14);
-  background:
-    radial-gradient(120% 140% at 100% 0%, rgba(0, 119, 204, 0.20) 0%, rgba(0, 119, 204, 0) 55%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 100%);
-}
-.dark .teaser-specs { border-top-color: rgba(255, 255, 255, 0.14); }
-.dark .teaser-lede,
-.dark .teaser-note,
-.dark .teaser-caption,
-.dark .teaser-specs span { color: rgba(255, 255, 255, 0.75); }
 
 @media (max-width: 767px) {
-  .teaser {
-    grid-template-columns: 1fr;
-    gap: 1.75rem;
-    padding: 1.5rem;
-  }
-  .teaser-title { font-size: 1.6rem; }
-}
 
+  .teaser {
+    min-height: 480px; /* much shorter than 840px — keeps a wider aspect ratio */
+  }
+
+  .teaser-media video {
+    min-height: 480px;
+    transform: translateX(25%) scale(1.5); /* extra zoom to push legends further out of frame */
+  }
+
+  .teaser-content {
+    left: 1.5rem;
+    right: 1.5rem;
+    max-width: none;
+  }
+
+  .teaser-copy {
+    max-width: 100%;
+  }
+
+  .teaser-title {
+    font-size: 1.6rem;
+  }
+
+  .teaser-lede {
+    font-size: 0.95rem;
+  }
+}
 
 /* ---- Software & Models cards ---- */
 .software-grid {
@@ -283,8 +314,6 @@ nav#navbar-main li.nav-item {
 .feature-grid {
   display: grid;
   gap: 1.25rem;
-  /* Explicit steps rather than auto-fit: with 4 items an auto-fitting grid
-     lands on 3 columns around tablet widths and orphans the 4th item. */
   grid-template-columns: 1fr;
 }
 @media (min-width: 576px) {
