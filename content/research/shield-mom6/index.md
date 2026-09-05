@@ -20,7 +20,7 @@ image:
 
 banner:
   # image: 'featured_old.png'
-  image: 'helene-slp-sst.gif'
+  image: 'helene-slp-sst.mp4'
   caption: ""
   focal_point: 'center'
   
@@ -72,7 +72,7 @@ Hurricane Helene 2024. The animation below shows the simulated sea level pressur
 and 10 m winds (left) alongside the sea surface temperature anomaly and ocean
 surface currents (right) as the storm crosses the Gulf.
 
-{{< figure src="helene-slp-sst.gif" title="Hurricane Helene (2024): sea level pressure and surface winds (left); sea surface temperature change and ocean currents (right). The cold wake and upwelling behind the storm are captured by the two-way coupling." >}}
+{{< video src="helene-slp-sst.mp4" title="Hurricane Helene (2024): sea level pressure and surface winds (left); sea surface temperature change and ocean currents (right). The cold wake and upwelling behind the storm are captured by the two-way coupling." >}}
 
 
 ## Scalability

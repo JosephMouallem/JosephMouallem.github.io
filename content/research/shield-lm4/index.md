@@ -19,7 +19,7 @@ image:
   preview_only: yes
 
 banner:
-  image: 'Global_zoomed_precip_runoff_river.gif'
+  image: 'Global_zoomed_precip_runoff_river.mp4'
   caption: ""
   focal_point: 'center'
 
@@ -68,7 +68,7 @@ The animation below shows global precipitation and runoff during Hurricane Helen
 landfall, zoomed on the southeastern United States to reveal localized hydrological 
 response.
 
-{{< figure src="Global_zoomed_precip_runoff_river.gif" title="Global precipitation (mm/hr), surface runoff, and river discharge (kg/m³/s) during Hurricane Helene (2024). Zoomed panels show detailed runoff and river flow in the southeastern U.S. during landfall." >}}
+{{< video src="Global_zoomed_precip_runoff_river.mp4" title="Global precipitation (mm/hr), surface runoff, and river discharge (kg/m³/s) during Hurricane Helene (2024). Zoomed panels show detailed runoff and river flow in the southeastern U.S. during landfall." >}}
 
 ## Soil Moisture and Land Surface Response
 
@@ -77,7 +77,7 @@ conditions. The animation shows soil liquid water content evolution during an
 extreme precipitation event, with time series of observed vs. modeled soil moisture 
 at multiple locations.
 
-{{< figure src="Runoff_river_helene_26_slow.gif" title="Time series of soil liquid water content (kg/m³) at multiple observation sites during Hurricane Helene, illustrating the rapid soil water response to extreme precipitation and subsequent drainage." >}}
+{{< video src="Runoff_river_helene_26_slow.mp4" title="Time series of soil liquid water content (kg/m³) at multiple observation sites during Hurricane Helene, illustrating the rapid soil water response to extreme precipitation and subsequent drainage." >}}
 
 ## Soil Column Interactions
 

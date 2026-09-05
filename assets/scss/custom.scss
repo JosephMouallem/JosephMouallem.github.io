@@ -217,3 +217,27 @@ nav#navbar-main li.nav-item {
   background: rgba(255, 255, 255, 0.03);
 }
 .dark .feature-item p { color: rgba(255, 255, 255, 0.75); }
+
+/* Animations ship as MP4 instead of GIF (~84% smaller), rendered by the
+   `video` shortcode. Match the spacing and caption styling of `figure`. */
+.video-figure {
+  margin: 1.5rem 0;
+
+  .video-figure-media {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Animated banners are MP4 rather than <img>; inherit the same uncropped,
+   centered treatment as image banners above. */
+video.article-banner {
+  display: block;
+}

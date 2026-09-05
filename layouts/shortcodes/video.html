@@ -1,9 +1,37 @@
-<figure>
-  <video controls autoplay loop muted playsinline style="width: 100%; height: auto;">
-    <source src="{{ .Get "src" }}" type="video/mp4">
+{{/* Video shortcode: renders a looping, autoplaying MP4 as a <figure>.
+
+     Used in place of the `figure` shortcode for animations, because Hugo's
+     image pipeline flattens animated GIFs. Resolving `src` and `poster` as
+     page resources lets Hugo emit correct, cache-safe URLs.
+
+     Parameters
+     ----------
+     src     : path to the .mp4, relative to the page bundle.
+     title   : optional caption (alias: caption).
+     poster  : optional still shown before playback; defaults to
+               "<src basename>_poster.jpg" when that resource exists.
+*/}}
+
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" | default (.Get "title") | default "" -}}
+
+{{- $url := $src -}}
+{{- with .Page.Resources.GetMatch $src }}{{ $url = .RelPermalink }}{{ end -}}
+
+{{- $poster := .Get "poster" | default (printf "%s_poster.jpg" (strings.TrimSuffix ".mp4" $src)) -}}
+{{- $posterURL := "" -}}
+{{- with .Page.Resources.GetMatch $poster }}{{ $posterURL = .RelPermalink }}{{ end -}}
+
+<figure class="video-figure">
+  <video
+    class="video-figure-media"
+    autoplay loop muted playsinline controls
+    preload="metadata"
+    {{ with $posterURL }}poster="{{ . }}"{{ end }}>
+    <source src="{{ $url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  {{ with .Get "title" }}
-  <figcaption>{{ . }}</figcaption>
-  {{ end }}
+  {{- with $caption }}
+  <figcaption>{{ . | markdownify | emojify }}</figcaption>
+  {{- end }}
 </figure>
