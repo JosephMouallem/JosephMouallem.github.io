@@ -1,6 +1,7 @@
 ---
 title: 'SHiELD-LM4: Coupled Land-Atmosphere Modeling'
-summary: "High-resolution coupled atmosphere-land modeling. I extended SHiELD into a fully coupled atmosphere-land system to improve precipitation, runoff, and hydrological extremes at kilometer-scale resolution. Hurricane Helene &middot; 3 km atmosphere &middot; precipitation to runoff."
+summary: "Extending SHiELD into a fully coupled atmosphere-land system to improve precipitation, runoff, and hydrological extremes at kilometer-scale resolution."
+card_subtitle: "Coupled land-atmosphere modeling"
 type: project
 date: 2026-09-04
 tags:

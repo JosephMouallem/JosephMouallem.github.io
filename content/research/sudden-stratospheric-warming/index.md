@@ -1,6 +1,7 @@
 ---
 title: 'A Minimal, Adiabatic Example of Sudden Stratospheric Warming'
 summary: 'A minimal adiabatic example of sudden stratospheric warming (SSW) using idealized simulations in the GFDL FV3 dynamical core.'
+card_subtitle: "Idealized stratospheric dynamics"
 type: project
 math: true
 date: 2025-09-01

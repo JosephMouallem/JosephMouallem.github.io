@@ -1,6 +1,7 @@
 ---
 title: 'Macro-Scale Effects on Sub-Grid Closures in Gas-Solid Riser Flows'
 summary: 'Macro-scale flow topology effects on sub-grid closure models in filtered two-fluid simulations of gas-solid riser flows.'
+card_subtitle: "Sub-grid closures for gas-solid flows"
 type: project
 date: 2018-06-01
 tags:

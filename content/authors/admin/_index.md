@@ -64,8 +64,8 @@ Institute for Modeling the Earth System at **Princeton University** and in the W
 and Climate Division at **NOAA's Geophysical Fluid Dynamics Laboratory (GFDL)**, where I
 develop numerical methods, scalable algorithms, and coupled Earth-system models for
 high-resolution weather and climate simulation. My work centers on GFDL's **FV3**
-dynamical core and the **SHiELD** modeling framework, building capabilities for coupled
-atmosphere-ocean-land simulation and for next-generation HPC architectures.
+dynamical core and the **SHiELD** modeling framework, where I develop scalable
+capabilities for coupled atmosphere-ocean-land simulation on modern HPC architectures.
 
 Before joining Princeton and GFDL in 2020, I began working in computational fluid
 dynamics during my M.Sc. at INSA Lyon with the turbomachinery team, earned my Ph.D. in

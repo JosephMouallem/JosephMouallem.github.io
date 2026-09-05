@@ -1,6 +1,7 @@
 ---
 title: 'Targeted Particle Delivery via Vortex Ring Reconnection'
 summary: 'A conceptual model for targeted particle delivery using controlled vortex ring reconnection in a duct.'
+card_subtitle: "Vortex dynamics and particle transport"
 type: project
 date: 2021-10-01
 tags:

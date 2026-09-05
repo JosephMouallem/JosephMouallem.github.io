@@ -123,3 +123,62 @@ nav#navbar-main li.nav-item {
 }
 .dark .software-card { border-color: rgba(255, 255, 255, 0.15); }
 .dark .software-card .software-desc { color: rgba(255, 255, 255, 0.75); }
+
+/* ---- Expertise strip ---- */
+.expertise-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem 0.75rem;
+}
+.expertise-strip span {
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  color: var(--gray-700, #4a4a4a);
+  white-space: nowrap;
+}
+.dark .expertise-strip span {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ---- Showcase cards: let the science carry the design ---- */
+.view-showcase .showcase-subtitle {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--primary, #0077cc);
+  margin: 0.3rem 0 0.55rem;
+  line-height: 1.35;
+}
+
+.view-showcase .showcase-explore {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+}
+.view-showcase .showcase-explore span {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+.view-showcase:hover .showcase-explore span { transform: translateX(4px); }
+
+/* Media is the focus: fill the column, round it, lift it on hover. */
+.view-showcase video.project-preview-video,
+.view-showcase img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.13);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.view-showcase a:hover video.project-preview-video,
+.view-showcase a:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.2);
+}

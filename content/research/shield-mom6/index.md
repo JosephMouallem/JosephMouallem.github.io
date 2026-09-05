@@ -1,6 +1,7 @@
 ---
 title: 'SHiELD-MOM6: High-Resolution Coupled Atmosphere-Ocean Modeling'
-summary: "High-resolution coupled atmosphere-ocean-ice modeling. I developed the coupling framework connecting SHiELD, MOM6, and SIS2 through FMS and the exchange-grid infrastructure, enabling two-way air-sea feedback at kilometer scales."
+summary: "Developing the framework that couples SHiELD, MOM6, and SIS2, enabling two-way air-sea feedback during hurricanes at kilometer scales."
+card_subtitle: "Coupled atmosphere-ocean-ice modeling"
 type: project
 date: 2025-09-26
 tags:

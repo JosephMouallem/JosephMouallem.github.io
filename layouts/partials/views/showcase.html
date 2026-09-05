@@ -39,12 +39,16 @@
 
 <div class="col-lg-12 view-showcase">
   <div class="row align-items-center">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-5">
       <div class="section-subheading article-title mb-0 mt-0">
         {{- if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end -}}
         {{ $item.Title | markdownify | emojify }}
         {{- if $do_link}}</a>{{end -}}
       </div>
+
+      {{ with $item.Params.card_subtitle }}
+      <div class="showcase-subtitle">{{ . | markdownify | emojify }}</div>
+      {{ end }}
 
       {{ with $summary }}
       <div class="article-style">
@@ -56,8 +60,12 @@
         {{ partial "page_links" (dict "page" $item "is_list" 0) }}
       </div>
 
+      {{ if $do_link }}
+      <a class="showcase-explore" href="{{ $link }}" {{ $target | safeHTMLAttr }}>Explore project <span aria-hidden="true">&rarr;</span></a>
+      {{ end }}
+
     </div>
-    <div class="col-12 col-md-6 order-first {{$order}}">
+    <div class="col-12 col-md-7 order-first {{$order}}">
       {{ $video := $item.Resources.GetMatch "preview.mp4" }}
       {{ $resource := partial "functions/get_featured_image.html" $item }}
 
@@ -65,7 +73,7 @@
         {{ $poster := "" }}
         {{ with $resource }}
           {{ if ne .MediaType.SubType "gif" }}
-            {{ $poster = (.Resize "540x webp").RelPermalink }}
+            {{ $poster = (.Resize "720x webp").RelPermalink }}
           {{ end }}
         {{ end }}
         {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
@@ -76,7 +84,7 @@
         {{if $do_link}}</a>{{end}}
       {{ else }}
         {{ with $resource }}
-          {{ $image := .Resize "540x webp" }}
+          {{ $image := .Resize "720x webp" }}
           {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
             <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
                 alt="{{ $item.Title }}" loading="lazy">

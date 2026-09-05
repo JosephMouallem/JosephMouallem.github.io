@@ -1,6 +1,7 @@
 ---
 title: 'The Duo-Grid and Cubed-Sphere Grid Imprinting'
 summary: 'An efficient refinement strategy for the cubed-sphere grid that enables regional simulations in the global FV3 dynamical core without regridding.'
+card_subtitle: "Eliminating grid imprinting in FV3"
 type: project
 date: 2023-12-01
 tags:

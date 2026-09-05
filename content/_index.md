@@ -25,7 +25,7 @@ sections:
           description: High-resolution atmosphere, ocean, land, and fully coupled climate modeling with SHiELD, MOM6, and LM4.
           icon: earth-americas
           icon_pack: fas
-        - name: Numerical Methods
+        - name: Numerical Methods & Algorithms
           description: Dynamical cores, grid design, nesting, regridding, and transport schemes for multiscale geophysical simulation.
           icon: square-root-variable
           icon_pack: fas
@@ -76,6 +76,17 @@ sections:
   #   design:
   #     columns: '2'
 
+  - block: markdown
+    id: expertise
+    content:
+      title:
+      text: |-
+        <div class="expertise-strip">
+          <span>Atmosphere</span><span>Ocean</span><span>Land</span><span>Sea Ice</span><span>Numerical Methods</span><span>HPC</span>
+        </div>
+    design:
+      columns: '1'
+
   - block: portfolio
     id: research
     content:
@@ -87,6 +98,14 @@ sections:
         tags:
           - Dynamical Core
           - Coupled Modeling
+      default_button_index: 0
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Coupled Modeling
+          tag: Coupled Modeling
+        - name: Dynamical Core
+          tag: Dynamical Core
     design:
       columns: '1'
       view: showcase
@@ -95,7 +114,7 @@ sections:
   - block: portfolio
     id: research-cfd
     content:
-      title: Earlier Work &mdash; Computational Fluid Dynamics
+      title: Earlier Research &mdash; Computational Fluid Dynamics
       subtitle: 'Multiphase flow, turbulence, and sub-grid modeling: the numerical foundations behind the Earth-system work above.'
       filters:
         folders:
@@ -130,7 +149,7 @@ sections:
     id: software
     content:
       title: Software & Models
-      subtitle: 'Open-source scientific infrastructure I develop and contribute to at GFDL.'
+      subtitle: 'Open-source scientific infrastructure I develop and contribute to at GFDL, spanning atmospheric dynamics, coupling, ocean, land, and sea-ice modeling.'
       text: |-
         <div class="software-grid">
           <a class="software-card" href="https://github.com/NOAA-GFDL/GFDL_atmos_cubed_sphere" target="_blank" rel="noopener">

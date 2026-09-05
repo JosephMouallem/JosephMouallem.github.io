@@ -1,6 +1,7 @@
 ---
 title: 'Induction Heating of Dispersed Metallic Particles in a Turbulent Flow'
 summary: 'Direct Numerical Simulation of inductively heated metallic particles dispersed in a decaying isotropic turbulent carrier gas.'
+card_subtitle: "Particle-laden turbulence and heat transfer"
 type: project
 date: 2020-11-01
 tags:
