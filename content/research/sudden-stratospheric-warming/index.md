@@ -1,6 +1,7 @@
 ---
 title: 'A Minimal, Adiabatic Example of Sudden Stratospheric Warming'
 summary: 'A minimal adiabatic example of sudden stratospheric warming (SSW) using idealized simulations in the GFDL FV3 dynamical core.'
+card_subtitle: "Idealized stratospheric dynamics"
 type: project
 math: true
 date: 2025-09-01
@@ -52,7 +53,7 @@ Hemisphere. In the absence of tropospheric wave forcing, the model preserves thi
 
 To induce an SSW, we introduce a *moving mountain* that generates planetary waves of a prescribed zonal wavenumber.
 
-{{< figure src="mountain.gif" title="Animation of the moving mountain forcing used to generate planetary waves of a prescribed zonal wavenumber." >}}
+{{< video src="mountain.mp4" title="Animation of the moving mountain forcing used to generate planetary waves of a prescribed zonal wavenumber." >}}
 
 The moving mountain is introduced through a time-dependent surface geopotential perturbation,
 
@@ -79,7 +80,7 @@ The Hovmöller diagram shows the temporal evolution of the zonal-wavenumber comp
 
 The animation shows the evolution of the zonal-mean Eliassen–Palm (EP) flux and its divergence. The upward propagation of EP flux demonstrates the transport of planetary-wave activity into the stratosphere, followed by enhanced wave–mean-flow interaction and deceleration of the polar-night jet.
 
-{{< figure src="EP_flux_zn1_anim.gif" title="Zonal-mean Eliassen–Palm (EP) flux vectors (arrows) and EP flux divergence (shading, in m/s/day). Gray contours denote the zonal-mean zonal wind (in m/s), with solid lines for positive values and dashed lines for negative values." >}}
+{{< video src="EP_flux_zn1_anim.mp4" title="Zonal-mean Eliassen–Palm (EP) flux vectors (arrows) and EP flux divergence (shading, in m/s/day). Gray contours denote the zonal-mean zonal wind (in m/s), with solid lines for positive values and dashed lines for negative values." >}}
 
 {{< figure src="vortex-displacement-split.png" title="Polar view of the two SSW regimes obtained in the idealized setup: wavenumber-1 forcing produces a vortex displacement event (left), while wavenumber-2 forcing produces a vortex split event (right)." >}}
 

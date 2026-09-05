@@ -1,6 +1,7 @@
 ---
 title: 'Targeted Particle Delivery via Vortex Ring Reconnection'
 summary: 'A conceptual model for targeted particle delivery using controlled vortex ring reconnection in a duct.'
+card_subtitle: "Vortex dynamics and particle transport"
 type: project
 date: 2021-10-01
 tags:
@@ -16,7 +17,7 @@ image:
   preview_only: yes
 
 banner:
-  image: 'vortex-ring-reconnection.gif'
+  image: 'vortex-ring-reconnection.mp4'
   caption: ""
   focal_point: 'center'
 
@@ -47,7 +48,7 @@ the ring, accompanied by a rapid repulsion in the plane perpendicular to the
 direction of travel. This effectively transports the particles toward the desired
 location on the sidewalls of a ducted flow.
 
-{{< figure src="vortex-ring-reconnection.gif" title="Simulation of the two particle-laden vortex rings advecting, interacting, and reconnecting inside the duct." >}}
+{{< video src="vortex-ring-reconnection.mp4" title="Simulation of the two particle-laden vortex rings advecting, interacting, and reconnecting inside the duct." >}}
 
 In addition to proposing this conceptual model, we identify the dominant physics
 of the process and the design considerations required to achieve targeted

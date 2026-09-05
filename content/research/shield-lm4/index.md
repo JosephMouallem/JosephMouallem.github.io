@@ -1,6 +1,7 @@
 ---
 title: 'SHiELD-LM4: Coupled Land-Atmosphere Modeling'
-summary: "A high-resolution coupled atmosphere-land model integrating SHiELD and the Land Model 4 (LM4) through GFDL's FMS coupler."
+summary: "Extending SHiELD into a fully coupled atmosphere-land system to improve precipitation, runoff, and hydrological extremes at kilometer-scale resolution."
+card_subtitle: "Coupled land-atmosphere modeling"
 type: project
 date: 2026-09-04
 tags:
@@ -18,11 +19,19 @@ image:
   preview_only: yes
 
 banner:
-  image: 'Global_zoomed_precip_runoff_river.gif'
+  image: 'Global_zoomed_precip_runoff_river.mp4'
   caption: ""
   focal_point: 'center'
 
 ---
+## What I developed
+
+- Implicit land-atmosphere coupling between SHiELD and LM4
+- Integration of the LM4 land component into the SHiELD framework
+- FMS coupling and exchange-grid infrastructure for conservative water and energy fluxes
+- High-resolution coupled hydrological simulations
+- The Hurricane Helene (2024) case study evaluating hydrological extremes
+
 ## Motivation
 
 Land-atmosphere interactions drive weather and climate extremes. This system integrates advanced atmospheric and land processes to capture how soil moisture, vegetation, and runoff feedback on regional weather patterns, advancing forecast skill for hydrological extremes.
@@ -59,7 +68,7 @@ The animation below shows global precipitation and runoff during Hurricane Helen
 landfall, zoomed on the southeastern United States to reveal localized hydrological 
 response.
 
-{{< figure src="Global_zoomed_precip_runoff_river.gif" title="Global precipitation (mm/hr), surface runoff, and river discharge (kg/m³/s) during Hurricane Helene (2024). Zoomed panels show detailed runoff and river flow in the southeastern U.S. during landfall." >}}
+{{< video src="Global_zoomed_precip_runoff_river.mp4" title="Global precipitation (mm/hr), surface runoff, and river discharge (kg/m³/s) during Hurricane Helene (2024). Zoomed panels show detailed runoff and river flow in the southeastern U.S. during landfall." >}}
 
 ## Soil Moisture and Land Surface Response
 
@@ -68,7 +77,7 @@ conditions. The animation shows soil liquid water content evolution during an
 extreme precipitation event, with time series of observed vs. modeled soil moisture 
 at multiple locations.
 
-{{< figure src="Runoff_river_helene_26_slow.gif" title="Time series of soil liquid water content (kg/m³) at multiple observation sites during Hurricane Helene, illustrating the rapid soil water response to extreme precipitation and subsequent drainage." >}}
+{{< video src="Runoff_river_helene_26_slow.mp4" title="Time series of soil liquid water content (kg/m³) at multiple observation sites during Hurricane Helene, illustrating the rapid soil water response to extreme precipitation and subsequent drainage." >}}
 
 ## Soil Column Interactions
 

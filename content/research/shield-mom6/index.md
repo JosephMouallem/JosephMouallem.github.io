@@ -1,6 +1,7 @@
 ---
 title: 'SHiELD-MOM6: High-Resolution Coupled Atmosphere-Ocean Modeling'
-summary: "A high-resolution coupled atmosphere-ocean model integrating SHiELD, MOM6, and SIS2 through GFDL's FMS coupler and exchange grid."
+summary: "Developing the framework that couples SHiELD, MOM6, and SIS2, enabling two-way air-sea feedback during hurricanes at kilometer scales."
+card_subtitle: "Coupled atmosphere-ocean-ice modeling"
 type: project
 date: 2025-09-26
 tags:
@@ -19,7 +20,7 @@ image:
 
 banner:
   # image: 'featured_old.png'
-  image: 'helene-slp-sst.gif'
+  image: 'helene-slp-sst.mp4'
   caption: ""
   focal_point: 'center'
   
@@ -29,6 +30,13 @@ banner:
 # url_pdf: ''
 # url_video: ''
 ---
+## What I developed
+
+- The coupling framework connecting SHiELD, MOM6, and SIS2 through FMS
+- Exchange-grid infrastructure for conservative flux exchange between components
+- High-resolution coupled atmosphere-ocean-ice model configurations
+- Evaluation of hurricane-ocean interaction, including Hurricane Helene (2024)
+
 ## Motivation
 
 Air-sea interactions drive storm intensity and ocean response. This coupled system captures two-way feedback between the atmosphere and ocean at kilometer scales, enabling accurate simulations of hurricane-ocean interactions and coastal impacts.
@@ -64,7 +72,7 @@ Hurricane Helene 2024. The animation below shows the simulated sea level pressur
 and 10 m winds (left) alongside the sea surface temperature anomaly and ocean
 surface currents (right) as the storm crosses the Gulf.
 
-{{< figure src="helene-slp-sst.gif" title="Hurricane Helene (2024): sea level pressure and surface winds (left); sea surface temperature change and ocean currents (right). The cold wake and upwelling behind the storm are captured by the two-way coupling." >}}
+{{< video src="helene-slp-sst.mp4" title="Hurricane Helene (2024): sea level pressure and surface winds (left); sea surface temperature change and ocean currents (right). The cold wake and upwelling behind the storm are captured by the two-way coupling." >}}
 
 
 ## Scalability

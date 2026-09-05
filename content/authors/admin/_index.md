@@ -1,6 +1,10 @@
 ---
 title: Joseph Mouallem
-role: Computational Scientist / Research Software Engineer
+role: Computational Scientist & Research Software Engineer
+tagline: >-
+  High-performance computing and scientific software for large-scale simulation -
+  building the numerical methods and coupled Earth-system models behind
+  next-generation weather and climate prediction.
 avatar_filename: avatar.jpg
 superuser: true
 highlight_name: true
@@ -17,15 +21,6 @@ organizations:
 # bio: >-
 #   Computational scientist working on GFDL's FV3 dynamical core: grid nesting,
 #   the Duo-Grid, and coupled atmosphere-ocean modeling.
-
-interests:
-  - High Performance Computing
-  - CFD algorithm implementation
-  - Scientific Software Architecture
-  - Next-Generation Earth System Models
-  # - Duo-Grid and grid imprinting
-  # - Atmosphere-Ocean Model Coupling
-  # - FV3 & SHiELD reproducibility and regression testing
 
 education:
   courses:
@@ -65,9 +60,24 @@ social:
 email: mouallem@princeton.edu
 ---
 
-Joseph is a Research Engineer and Computational Scientist at the Cooperative Institute for Modeling the Earth System at Princeton University, and in the Weather and Climate Division at NOAA Geophysical Fluid Dynamics Laboratory. He began his research in CFD during his MSc at INSA Lyon in 2013, working with the turbomachinery team. He later earned his Ph.D. in Mechanical Engineering from the University of São Paulo, where his work focused on multiscale multiphase flows. He then joined the University of Waterloo as a postdoctoral fellow conducting research on heated particle laden turbulence.
+I am a Computational Scientist and Research Software Engineer at the Cooperative
+Institute for Modeling the Earth System at **Princeton University** and in the Weather
+and Climate Division at **NOAA's Geophysical Fluid Dynamics Laboratory (GFDL)**. I work
+at the intersection of **high-performance computing** and **scientific software
+engineering**, designing scalable parallel algorithms and building, optimizing, and
+maintaining production simulation codes that run on large HPC systems.
 
-Since 2020, Joseph has been working at Princeton and GFDL, where he develops advanced numerical methods and scalable algorithms for high-resolution geophysical simulations. His work centers on GFDL’s FV3 dynamical core and the next-generation atmosphere model SHiELD, with an emphasis on multiscale modeling, model coupling, and performance portability on modern HPC architectures. His research aims to enable next-generation Earth system simulations with improved fidelity and computational efficiency for extreme weather and climate prediction. 
+I apply that work to **numerical methods** and **coupled Earth-system models** for
+high-resolution weather and climate simulation. My work centers on GFDL's **FV3**
+dynamical core and the **SHiELD** modeling framework, where I develop scalable
+capabilities for coupled atmosphere-ocean-land simulation on modern HPC architectures.
 
+Before joining Princeton and GFDL in 2020, I began working in computational fluid
+dynamics during my M.Sc. at INSA Lyon with the turbomachinery team, earned my Ph.D. in
+Mechanical Engineering at the University of São Paulo on multiscale multiphase flows,
+and held a postdoctoral fellowship at the University of Waterloo studying heated
+particle-laden turbulence. That trajectory - from classical CFD and multiphase flow, to
+numerical methods and dynamical cores, to coupled Earth-system modeling - shapes how I
+approach model development today.
 
 {style="text-align: justify;"}

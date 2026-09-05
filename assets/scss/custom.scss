@@ -76,3 +76,168 @@ nav#navbar-main li.nav-item {
 .isotope-item:last-child .view-showcase {
   margin-bottom: 0;
 }
+
+/* ---- Hero tagline under the name/role ---- */
+.about-tagline {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--gray-700, #4a4a4a);
+  margin-bottom: 1.25rem;
+  border-left: 3px solid var(--primary, #0077cc);
+  padding-left: 1rem;
+}
+.dark .about-tagline { color: rgba(255, 255, 255, 0.8); }
+
+
+/* ---- Software & Models cards ---- */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.15rem;
+}
+.software-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.software-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  border-color: var(--primary, #0077cc);
+}
+.software-card .software-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary, #0077cc);
+}
+.software-card .software-desc {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--gray-700, #4a4a4a);
+}
+.dark .software-card { border-color: rgba(255, 255, 255, 0.15); }
+.dark .software-card .software-desc { color: rgba(255, 255, 255, 0.75); }
+
+
+/* ---- Showcase cards: let the science carry the design ---- */
+.view-showcase .showcase-subtitle {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--primary, #0077cc);
+  margin: 0.3rem 0 0.55rem;
+  line-height: 1.35;
+}
+
+.view-showcase .showcase-explore {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+}
+.view-showcase .showcase-explore span {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+.view-showcase:hover .showcase-explore span { transform: translateX(4px); }
+
+/* Media is the focus: fill the column, round it, lift it on hover. */
+.view-showcase video.project-preview-video,
+.view-showcase img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.13);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.view-showcase a:hover video.project-preview-video,
+.view-showcase a:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.2);
+}
+
+/* ---- Research Areas grid ----
+   The theme hardcodes col-sm-4 (3 per row), which orphans a 4th item on its
+   own row. Use an auto-fitting grid so any item count stays balanced. */
+.feature-grid {
+  display: grid;
+  gap: 1.25rem;
+  /* Explicit steps rather than auto-fit: with 4 items an auto-fitting grid
+     lands on 3 columns around tablet widths and orphans the 4th item. */
+  grid-template-columns: 1fr;
+}
+@media (min-width: 576px) {
+  .feature-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1100px) {
+  .feature-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem 1.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.015);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.feature-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary, #0077cc);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+}
+.feature-item .featurette-icon {
+  margin: 0 0 0.6rem;
+  padding: 0;
+  line-height: 1;
+  color: var(--primary, #0077cc);
+  font-size: 1.9rem;
+}
+.feature-item .featurette-icon i { font-size: inherit; }
+.feature-item .section-subheading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  line-height: 1.3;
+}
+.feature-item p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--gray-700, #4a4a4a);
+}
+.dark .feature-item {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+}
+.dark .feature-item p { color: rgba(255, 255, 255, 0.75); }
+
+/* Animations ship as MP4 instead of GIF (~84% smaller), rendered by the
+   `video` shortcode. Match the spacing and caption styling of `figure`. */
+.video-figure {
+  margin: 1.5rem 0;
+
+  .video-figure-media {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+  }
+}
+
+/* Animated banners are MP4 rather than <img>; inherit the same uncropped,
+   centered treatment as image banners above. */
+video.article-banner {
+  display: block;
+}
