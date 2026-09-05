@@ -29,7 +29,7 @@ url_video: ''
 ---
 ## Motivation
 
-Addressing the challenge of running localized high-resolution simulations within a global model, the duo-grid imprints a finer mesh over a region of interest, reducing computational cost by an order of magnitude compared to traditional regridding approaches.
+Grid discontinuities introduce numerical errors and artifacts in simulations on the cubed-sphere grid. These errors, often referred to as grid imprinting, manifest as spurious patterns aligned with the cube edges, degrading the accuracy of the solution and complicating the interpretation of results. The Duo-Grid addresses this issue by remapping data onto a more natural grid configuration, reducing the impact of the cube's geometric discontinuities.
 
 
 ## The problem: grid imprinting
@@ -79,7 +79,7 @@ Across these tests, the Duo-Grid consistently reduces grid imprinting and numeri
 - FV3’s robustness and accuracy have increased.
 
 
-These results indicate a clear improvement in FV3's robustness.
+These results indicate a clear improvement in FV3's robustness and numerical accuracy.
 
 ## Reference
 

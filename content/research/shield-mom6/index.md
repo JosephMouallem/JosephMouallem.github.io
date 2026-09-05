@@ -30,12 +30,6 @@ banner:
 # url_pdf: ''
 # url_video: ''
 ---
-## What I developed
-
-- The coupling framework connecting SHiELD, MOM6, and SIS2 through FMS
-- Exchange-grid infrastructure for conservative flux exchange between components
-- High-resolution coupled atmosphere-ocean-ice model configurations
-- Evaluation of hurricane-ocean interaction, including Hurricane Helene (2024)
 
 ## Motivation
 
