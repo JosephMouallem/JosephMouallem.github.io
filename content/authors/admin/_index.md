@@ -2,8 +2,9 @@
 title: Joseph Mouallem
 role: Computational Scientist & Research Software Engineer
 tagline: >-
-  Developing high-performance numerical methods and coupled Earth-system models
-  for next-generation weather and climate simulation.
+  High-performance computing and scientific software for large-scale simulation -
+  building the numerical methods and coupled Earth-system models behind
+  next-generation weather and climate prediction.
 avatar_filename: avatar.jpg
 superuser: true
 highlight_name: true
@@ -61,8 +62,12 @@ email: mouallem@princeton.edu
 
 I am a Computational Scientist and Research Software Engineer at the Cooperative
 Institute for Modeling the Earth System at **Princeton University** and in the Weather
-and Climate Division at **NOAA's Geophysical Fluid Dynamics Laboratory (GFDL)**, where I
-develop numerical methods, scalable algorithms, and coupled Earth-system models for
+and Climate Division at **NOAA's Geophysical Fluid Dynamics Laboratory (GFDL)**. I work
+at the intersection of **high-performance computing** and **scientific software
+engineering**, designing scalable parallel algorithms and building, optimizing, and
+maintaining production simulation codes that run on large HPC systems.
+
+I apply that work to **numerical methods** and **coupled Earth-system models** for
 high-resolution weather and climate simulation. My work centers on GFDL's **FV3**
 dynamical core and the **SHiELD** modeling framework, where I develop scalable
 capabilities for coupled atmosphere-ocean-land simulation on modern HPC architectures.

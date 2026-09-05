@@ -124,27 +124,6 @@ nav#navbar-main li.nav-item {
 .dark .software-card { border-color: rgba(255, 255, 255, 0.15); }
 .dark .software-card .software-desc { color: rgba(255, 255, 255, 0.75); }
 
-/* ---- Expertise strip ---- */
-.expertise-strip {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem 0.75rem;
-}
-.expertise-strip span {
-  font-size: 0.85rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  padding: 0.35rem 0.85rem;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 999px;
-  color: var(--gray-700, #4a4a4a);
-  white-space: nowrap;
-}
-.dark .expertise-strip span {
-  border-color: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.8);
-}
 
 /* ---- Showcase cards: let the science carry the design ---- */
 .view-showcase .showcase-subtitle {
