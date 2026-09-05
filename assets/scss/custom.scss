@@ -76,3 +76,70 @@ nav#navbar-main li.nav-item {
 .isotope-item:last-child .view-showcase {
   margin-bottom: 0;
 }
+
+/* ---- Hero tagline under the name/role ---- */
+.about-tagline {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--gray-700, #4a4a4a);
+  margin-bottom: 1.25rem;
+  border-left: 3px solid var(--primary, #0077cc);
+  padding-left: 1rem;
+}
+.dark .about-tagline { color: rgba(255, 255, 255, 0.8); }
+
+/* ---- Compact statistics strip ---- */
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+.stat-strip .stat { display: flex; flex-direction: column; gap: 0.35rem; }
+.stat-strip .stat-num {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--primary, #0077cc);
+}
+.stat-strip .stat-label {
+  font-size: 0.9rem;
+  color: var(--gray-600, #6c757d);
+  line-height: 1.35;
+}
+.dark .stat-strip .stat-label { color: rgba(255, 255, 255, 0.7); }
+
+/* ---- Software & Models cards ---- */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.15rem;
+}
+.software-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.software-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  border-color: var(--primary, #0077cc);
+}
+.software-card .software-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary, #0077cc);
+}
+.software-card .software-desc {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--gray-700, #4a4a4a);
+}
+.dark .software-card { border-color: rgba(255, 255, 255, 0.15); }
+.dark .software-card .software-desc { color: rgba(255, 255, 255, 0.75); }

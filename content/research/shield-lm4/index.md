@@ -1,6 +1,6 @@
 ---
 title: 'SHiELD-LM4: Coupled Land-Atmosphere Modeling'
-summary: "A high-resolution coupled atmosphere-land model integrating SHiELD and the Land Model 4 (LM4) through GFDL's FMS coupler."
+summary: "High-resolution coupled atmosphere-land modeling. I extended SHiELD into a fully coupled atmosphere-land system to improve precipitation, runoff, and hydrological extremes at kilometer-scale resolution. Hurricane Helene &middot; 3 km atmosphere &middot; precipitation to runoff."
 type: project
 date: 2026-09-04
 tags:
@@ -23,6 +23,14 @@ banner:
   focal_point: 'center'
 
 ---
+## What I developed
+
+- Implicit land-atmosphere coupling between SHiELD and LM4
+- Integration of the LM4 land component into the SHiELD framework
+- FMS coupling and exchange-grid infrastructure for conservative water and energy fluxes
+- High-resolution coupled hydrological simulations
+- The Hurricane Helene (2024) case study evaluating hydrological extremes
+
 ## Motivation
 
 Land-atmosphere interactions drive weather and climate extremes. This system integrates advanced atmospheric and land processes to capture how soil moisture, vegetation, and runoff feedback on regional weather patterns, advancing forecast skill for hydrological extremes.
