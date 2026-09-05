@@ -34,6 +34,40 @@ sections:
           icon: earth-americas
           icon_pack: fas
 
+  - block: markdown
+    id: coming-soon
+    content:
+      text: |-
+        <section class="teaser">
+          <div class="teaser-copy">
+            <span class="teaser-badge">Coming soon</span>
+            <h2 class="teaser-title">A new high-resolution fully coupled configuration</h2>
+            <p class="teaser-lede">
+              Global storm-resolving atmosphere, eddy-rich ocean, and interactive land &mdash;
+              running together in a single, fully coupled system. A first look at what the
+              next generation of GFDL coupled modeling can resolve.
+            </p>
+            <ul class="teaser-specs">
+              <li><strong>C768</strong><span>~13 km SHiELD atmosphere</span></li>
+              <li><strong>C384</strong><span>~25 km MOM6 / OM5 ocean</span></li>
+              <li><strong>LM4</strong><span>interactive land &amp; rivers</span></li>
+            </ul>
+            <p class="teaser-note">Full results, configuration details, and animations coming soon.</p>
+          </div>
+          <div class="teaser-media">
+            <video autoplay loop muted playsinline preload="metadata"
+                   poster="/media/coupled-c768-c384-om5_poster.jpg">
+              <source src="/media/coupled-c768-c384-om5.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="teaser-caption">
+              Five days of a coupled C768 atmosphere / C384 OM5 ocean simulation with interactive land.
+            </p>
+          </div>
+        </section>
+    design:
+      columns: '1'
+
   # - block: experience
   #   id: experience
   #   content:
