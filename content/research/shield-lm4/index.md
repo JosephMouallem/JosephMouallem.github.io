@@ -96,6 +96,9 @@ This highlights a key advantage of **global** coupled modeling: **multiple, geog
 - The model demonstrates capability to simulate coupled hydro-atmospheric extremes 
   with kilometer-scale detail.
 
+This work extends coupled modeling capabilities at high resolution to include detailed land surface 
+hydrology, with implications for weather forecasting, hydrological prediction, 
+and climate research.
 
 ## Reference
 
