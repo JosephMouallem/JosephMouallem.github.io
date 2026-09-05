@@ -76,8 +76,8 @@ Before joining Princeton and GFDL in 2020, I began working in computational flui
 dynamics during my M.Sc. at INSA Lyon with the turbomachinery team, earned my Ph.D. in
 Mechanical Engineering at the University of São Paulo on multiscale multiphase flows,
 and held a postdoctoral fellowship at the University of Waterloo studying heated
-particle-laden turbulence. That trajectory - from classical CFD and multiphase flow, to
-numerical methods and dynamical cores, to coupled Earth-system modeling - shapes how I
+particle-laden turbulence. That trajectory, from classical CFD and multiphase flow, to
+numerical methods and dynamical cores, to coupled Earth-system modeling, shapes how I
 approach model development today.
 
 {style="text-align: justify;"}
