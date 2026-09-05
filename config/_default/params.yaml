@@ -21,7 +21,7 @@ marketing:
     description: 'Joseph Mouallem - Computational Scientist at GFDL/NOAA and Research Software Engineer at Princeton University, working on the FV3 dynamical core, grid nesting, the Duo-Grid, and coupled atmosphere-ocean modeling.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-BH39NZ58N5'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''  
