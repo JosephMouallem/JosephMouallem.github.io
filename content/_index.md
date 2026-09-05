@@ -76,20 +76,6 @@ sections:
   #   design:
   #     columns: '2'
 
-  - block: markdown
-    id: impact
-    content:
-      title:
-      text: |-
-        <div class="stat-strip">
-          <div class="stat"><span class="stat-num">21</span><span class="stat-label">Peer-reviewed publications</span></div>
-          <div class="stat"><span class="stat-num">11</span><span class="stat-label">First-author publications</span></div>
-          <div class="stat"><span class="stat-num">2020&ndash;present</span><span class="stat-label">Princeton University &middot; NOAA GFDL</span></div>
-          <div class="stat"><span class="stat-num">FV3 &middot; SHiELD</span><span class="stat-label">Core model development</span></div>
-        </div>
-    design:
-      columns: '1'
-
   - block: portfolio
     id: research
     content:

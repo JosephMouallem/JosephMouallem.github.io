@@ -89,26 +89,6 @@ nav#navbar-main li.nav-item {
 }
 .dark .about-tagline { color: rgba(255, 255, 255, 0.8); }
 
-/* ---- Compact statistics strip ---- */
-.stat-strip {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  text-align: center;
-}
-.stat-strip .stat { display: flex; flex-direction: column; gap: 0.35rem; }
-.stat-strip .stat-num {
-  font-size: 1.9rem;
-  font-weight: 700;
-  line-height: 1.1;
-  color: var(--primary, #0077cc);
-}
-.stat-strip .stat-label {
-  font-size: 0.9rem;
-  color: var(--gray-600, #6c757d);
-  line-height: 1.35;
-}
-.dark .stat-strip .stat-label { color: rgba(255, 255, 255, 0.7); }
 
 /* ---- Software & Models cards ---- */
 .software-grid {
