@@ -34,6 +34,48 @@ sections:
           icon: earth-americas
           icon_pack: fas
 
+  # - block: experience
+  #   id: experience
+  #   content:
+  #     title: Professional Positions
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     items:
+  #       - title: Computational Scientist
+  #         company: GFDL / NOAA
+  #         company_url: 'https://www.gfdl.noaa.gov/'
+  #         company_logo: ''
+  #         location: Princeton, NJ, USA
+  #         date_start: '2020-01-01'
+  #         date_end: ''
+  #         description: |2-
+  #             Member of the FV3 team. Work includes:
+
+  #             * Development of the FV3 dynamical core
+  #             * Multiple same-level and telescoping grid nesting
+  #             * Duo-Grid implementation to eliminate grid imprinting
+  #             * SHiELD-MOM6 coupled atmosphere-ocean model development
+  #             * Reproducibility and regression testing for FV3 and SHiELD
+  #       - title: Research Software Engineer
+  #         company: Princeton University
+  #         company_url: 'https://www.princeton.edu/'
+  #         company_logo: ''
+  #         location: Princeton, NJ, USA
+  #         date_start: '2020-01-01'
+  #         date_end: ''
+  #         description: Research software engineering in support of atmospheric and ocean modeling at GFDL.
+  #       - title: Postdoctoral Fellow and Sessional Lecturer
+  #         company: University of Waterloo
+  #         company_url: 'https://uwaterloo.ca/'
+  #         company_logo: ''
+  #         location: Waterloo, ON, Canada
+  #         date_start: '2019-01-01'
+  #         date_end: '2020-12-31'
+  #         description: Direct Numerical Simulation of multiphase and turbulent compressible flows; teaching in mechanical engineering.
+  #   design:
+  #     columns: '2'
+
   - block: portfolio
     id: research
     content:
