@@ -1,5 +1,5 @@
 ---
-title: Joseph Mouallem
+title: Joseph Mouallem, PhD
 role: Computational Scientist & Research Software Engineer
 tagline: >-
   High-performance computing and scientific software for large-scale simulation -
